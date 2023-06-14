@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/crcsportal/static/css/main.b79e57bf.css",
+    "main.js": "/crcsportal/static/js/main.5514f213.js",
+    "static/js/787.6e3c9042.chunk.js": "/crcsportal/static/js/787.6e3c9042.chunk.js",
+    "index.html": "/crcsportal/index.html",
+    "main.b79e57bf.css.map": "/crcsportal/static/css/main.b79e57bf.css.map",
+    "main.5514f213.js.map": "/crcsportal/static/js/main.5514f213.js.map",
+    "787.6e3c9042.chunk.js.map": "/crcsportal/static/js/787.6e3c9042.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b79e57bf.css",
+    "static/js/main.5514f213.js"
+  ]
+}
