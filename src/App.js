@@ -29,10 +29,10 @@ function App() {
 	return (
 		<Router>
 			<Routes>
-				<Route path="crcsportal" element={<Homepage />} />
-				<Route path="crcsportal/registration" element={<UserRegister />} />
-				<Route path="crcsportal/login" exact element={<UserLogin />} />
-				<Route path="crcsportal/admin/login" element={<AdminLogin />} />
+				<Route path="" element={<Homepage />} />
+				<Route path="registration" element={<UserRegister />} />
+				<Route path="login" exact element={<UserLogin />} />
+				<Route path="admin/login" element={<AdminLogin />} />
 			</Routes>
 		</Router>
 	);
