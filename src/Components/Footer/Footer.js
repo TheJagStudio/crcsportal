@@ -6,24 +6,24 @@ const Footer = () => {
 			<div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
 				<div className="grid grid-cols-2 gap-x-5 gap-y-12 md:grid-cols-4 md:gap-x-12">
 					<div>
-						<ul className=" space-y-4">
+						<ul className="sm:space-y-4 space-y-2.5">
 							<li>
-								<a href="#" title="" className="text-base text-white transition-all duration-200 hover:scale-110 origin-left hover:font-bold">
+								<a href="#" title="" className="sm:sm:text-base text-sm text-sm text-white transition-all duration-200 hover:scale-110 origin-left hover:font-bold">
 									State Registrars
 								</a>
 							</li>
 							<li>
-								<a href="#" title="" className="text-base text-white transition-all duration-200 hover:scale-110 origin-left hover:font-bold">
+								<a href="#" title="" className="sm:sm:text-base text-sm text-sm text-white transition-all duration-200 hover:scale-110 origin-left hover:font-bold">
 									Societies in the Second Schedule
 								</a>
 							</li>
 							<li>
-								<a href="#" title="" className="text-base text-white transition-all duration-200 hover:scale-110 origin-left hover:font-bold">
+								<a href="#" title="" className="sm:sm:text-base text-sm text-sm text-white transition-all duration-200 hover:scale-110 origin-left hover:font-bold">
 									Complaint & Hearing Notice
 								</a>
 							</li>
 							<li>
-								<a href="#" title="" className="text-base text-white transition-all duration-200 hover:scale-110 origin-left hover:font-bold">
+								<a href="#" title="" className="sm:sm:text-base text-sm text-sm text-white transition-all duration-200 hover:scale-110 origin-left hover:font-bold">
 									Hearing Order Sheet
 								</a>
 							</li>
@@ -31,24 +31,24 @@ const Footer = () => {
 					</div>
 
 					<div>
-						<ul className=" space-y-4">
+						<ul className="sm:space-y-4 space-y-2.5">
 							<li>
-								<a href="#" title="" className="text-base text-white transition-all duration-200 hover:scale-110 origin-left hover:font-bold">
+								<a href="#" title="" className="sm:text-base text-sm text-white transition-all duration-200 hover:scale-110 origin-left hover:font-bold">
 									Circulars
 								</a>
 							</li>
 							<li>
-								<a href="#" title="" className="text-base text-white transition-all duration-200 hover:scale-110 origin-left hover:font-bold">
+								<a href="#" title="" className="sm:text-base text-sm text-white transition-all duration-200 hover:scale-110 origin-left hover:font-bold">
 									Latest Certificates
 								</a>
 							</li>
 							<li>
-								<a href="#" title="" className="text-base text-white transition-all duration-200 hover:scale-110 origin-left hover:font-bold">
+								<a href="#" title="" className="sm:text-base text-sm text-white transition-all duration-200 hover:scale-110 origin-left hover:font-bold">
 									Amendment (Bye Laws)
 								</a>
 							</li>
 							<li>
-								<a href="#" title="" className="text-base text-white transition-all duration-200 hover:scale-110 origin-left hover:font-bold">
+								<a href="#" title="" className="sm:text-base text-sm text-white transition-all duration-200 hover:scale-110 origin-left hover:font-bold">
 									Notices (New Registration)
 								</a>
 							</li>
@@ -56,24 +56,24 @@ const Footer = () => {
 					</div>
 
 					<div>
-						<ul className=" space-y-4">
+						<ul className="sm:space-y-4 space-y-2.5">
 							<li>
-								<a href="#" title="" className="text-base text-white transition-all duration-200 hover:scale-110 origin-left hover:font-bold">
+								<a href="#" title="" className="sm:text-base text-sm text-white transition-all duration-200 hover:scale-110 origin-left hover:font-bold">
 									Rejection Orders
 								</a>
 							</li>
 							<li>
-								<a href="#" title="" className="text-base text-white transition-all duration-200 hover:scale-110 origin-left hover:font-bold">
+								<a href="#" title="" className="sm:text-base text-sm text-white transition-all duration-200 hover:scale-110 origin-left hover:font-bold">
 									Feedback
 								</a>
 							</li>
 							<li>
-								<a href="#" title="" className="text-base text-white transition-all duration-200 hover:scale-110 origin-left hover:font-bold">
+								<a href="#" title="" className="sm:text-base text-sm text-white transition-all duration-200 hover:scale-110 origin-left hover:font-bold">
 									RTI
 								</a>
 							</li>
 							<li>
-								<a href="#" title="" className="text-base text-white transition-all duration-200 hover:scale-110 origin-left hover:font-bold">
+								<a href="#" title="" className="sm:text-base text-sm text-white transition-all duration-200 hover:scale-110 origin-left hover:font-bold">
 									Other Links
 								</a>
 							</li>
@@ -81,24 +81,24 @@ const Footer = () => {
 					</div>
 
 					<div>
-						<ul className=" space-y-4">
+						<ul className="sm:space-y-4 space-y-2.5">
 							<li>
-								<a href="#" title="" className="text-base text-white transition-all duration-200 hover:scale-110 origin-left hover:font-bold">
+								<a href="#" title="" className="sm:text-base text-sm text-white transition-all duration-200 hover:scale-110 origin-left hover:font-bold">
 									Contact Us
 								</a>
 							</li>
 							<li>
-								<a href="#" title="" className="text-base text-white transition-all duration-200 hover:scale-110 origin-left hover:font-bold">
+								<a href="#" title="" className="sm:text-base text-sm text-white transition-all duration-200 hover:scale-110 origin-left hover:font-bold">
 									Grievance
 								</a>
 							</li>
 							<li>
-								<a href="#" title="" className="text-base text-white transition-all duration-200 hover:scale-110 origin-left hover:font-bold">
+								<a href="#" title="" className="sm:text-base text-sm text-white transition-all duration-200 hover:scale-110 origin-left hover:font-bold">
 									Disclaimer
 								</a>
 							</li>
 							<li>
-								<a href="#" title="" className="text-base text-white transition-all duration-200 hover:scale-110 origin-left hover:font-bold">
+								<a href="#" title="" className="sm:text-base text-sm text-white transition-all duration-200 hover:scale-110 origin-left hover:font-bold">
 									Mobile App
 								</a>
 							</li>
@@ -106,7 +106,7 @@ const Footer = () => {
 					</div>
 				</div>
 
-				<hr className="mt-16 mb-10 border-primary-800" />
+				<hr className="md:mt-16 mt-10 mb-10 border-primary-800" />
 
 				<div className="flex flex-wrap items-center justify-between">
 					<div>
@@ -114,7 +114,7 @@ const Footer = () => {
 						<p className="text-white text-sm">Ministry of Cooperation, Govt. of India</p>
 					</div>
 
-					<ul className="flex items-center space-x-3 md:order-3">
+					<ul className="flex items-center sm:mt-0 mt-3 space-x-3 md:order-3">
 						<li>
 							<a href="#" title="" className="flex items-center justify-center text-white transition-all duration-200 bg-transparent border border-primary-700 rounded-full w-7 h-7 focus:bg-blue-600 hover:bg-blue-600 hover:border-blue-600 focus:border-blue-600">
 								<svg className="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">

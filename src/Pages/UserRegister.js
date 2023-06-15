@@ -25,7 +25,7 @@ const UserRegister = () => {
 							<label className="block text-sm">
 								<span>Select State (Head Quater)</span>
 								<span className="relative mt-1.5 flex">
-									<select id="countries" className="form-input outline-none peer w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 pl-9 placeholder:font-light hover:border-secondary-700 focus:border-secondary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent">
+									<select className="form-input outline-none peer w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 pl-9 placeholder:font-light hover:border-secondary-700 focus:border-secondary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent">
 										<option selected disabled>
 											--Select State--
 										</option>

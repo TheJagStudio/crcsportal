@@ -1,10 +1,40 @@
+import React, { useState } from "react";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Homepage from "./Pages/Homepage";
 import UserRegister from "./Pages/UserRegister";
 import UserLogin from "./Pages/UserLogin";
+
 import AdminLogin from "./Admin/Pages/AdminLogin";
-import React, { useState } from "react";
+
+import StateWiseChart from "./Pages/StateWiseChart";
+import YearWiseChart from "./Pages/YearWiseChart";
+import TypeWiseChart from "./Pages/TypeWiseChart";
+
+import StateWiseList from "./Pages/StateWiseList";
+import AllRegSocieties from "./Pages/AllRegSocieties";
+import RegisteredUsers from "./Pages/RegisteredUsers";
+import FiledAR from "./Pages/FiledAR";
+import FiledAROffline from "./Pages/FiledAROffline";
+import ReminderMsg from "./Pages/ReminderMsg";
+
+import CalenderYearWiseList from "./Pages/CalenderYearWiseList";
+import FinancialYearWiseList from "./Pages/FinancialYearWiseList";
+
+import Form1 from "./Pages/Form1";
+import Form2 from "./Pages/Form2";
+import Form3 from "./Pages/Form3";
+import Form4 from "./Pages/Form4";
+import Form5 from "./Pages/Form5";
+
+import ModelByLaws from "./Pages/ModelByLaws";
+import Checklist from "./Pages/Checklist";
+
+import ReceivedApplication from "./Pages/ReceivedApplication";
+import StatusApplication from "./Pages/StatusApplication";
+
+import LiquidationList from "./Pages/LiquidationList";
+import Bank from "./Pages/Bank";
 
 function App() {
 	const color = [
@@ -55,6 +85,28 @@ function App() {
 				<Route path="" element={<Homepage />} />
 				<Route path="registration" element={<UserRegister />} />
 				<Route path="login" exact element={<UserLogin />} />
+				<Route path="state-wise-chart" exact element={<StateWiseChart />} />
+				<Route path="year-wise-chart" exact element={<YearWiseChart />} />
+				<Route path="type-wise-chart" exact element={<TypeWiseChart />} />
+				<Route path="state-wise-list" exact element={<StateWiseList />} />
+				<Route path="search-record" exact element={<AllRegSocieties />} />
+				<Route path="registered-users" exact element={<RegisteredUsers />} />
+				<Route path="filed-AR-New" exact element={<FiledAR />} />
+				<Route path="filed-AR-Offline" exact element={<FiledAROffline />} />
+				<Route path="reminder-msg" exact element={<ReminderMsg />} />
+				<Route path="calender-year-wise-list" exact element={<CalenderYearWiseList />} />
+				<Route path="financial-year-wise-list" exact element={<FinancialYearWiseList />} />
+				<Route path="received-application" exact element={<ReceivedApplication />} />
+				<Route path="status-application" exact element={<StatusApplication />} />
+				<Route path="form1" exact element={<Form1 />} />
+				<Route path="form2" exact element={<Form2 />} />
+				<Route path="form3" exact element={<Form3 />} />
+				<Route path="form4" exact element={<Form4 />} />
+				<Route path="form5" exact element={<Form5 />} />
+				<Route path="model-by-laws" exact element={<ModelByLaws />} />
+				<Route path="checklist" exact element={<Checklist />} />
+				<Route path="liquidation-list" exact element={<LiquidationList />} />
+				<Route path="banks" exact element={<Bank />} />
 				<Route path="admin/login" element={<AdminLogin />} />
 			</Routes>
 		</Router>

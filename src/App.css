@@ -1,0 +1,17 @@
+[data-column-id="address"] {
+	width: 20rem;
+}
+
+[data-column-id="nameOfTheSociety"] {
+	width: 10rem;
+}
+[data-column-id="societyName"] {
+	width: 30rem;
+}
+
+[data-column-id="districtName"] {
+	width: 0.1rem !important;
+	overflow: hidden !important;
+	white-space: nowrap !important;
+	text-overflow: ellipsis !important;
+}

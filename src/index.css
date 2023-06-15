@@ -1,48 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap");
 
-*{
-  font-family: 'Inter', sans-serif;
+* {
+	font-family: "Inter", sans-serif;
 }
 
 body {
-  margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
 ::-webkit-scrollbar {
-  @apply bg-primary-100 w-2;
+	@apply bg-primary-100 w-2;
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply bg-primary-500 hover:bg-primary-800 transition-all duration-300;
+	@apply bg-primary-500 hover:bg-primary-800 transition-all duration-300;
 }
 
 .noScrollBar::-webkit-scrollbar {
-  display: none;
+	display: none;
+}
+
+input{
+  outline: none !important;
 }
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
-  :root{
-    --primary-50: #eef2ff;
-    --primary-100: #e0e7ff;
-    --primary-200: #c7d2fe;
-    --primary-300: #a5b4fc;
-    --primary-400: #818cf8;
-    --primary-500: #6366f1;
-    --primary-600: #4f46e5;
-    --primary-700: #4338ca;
-    --primary-800: #3730a3;
-    --primary-900: #312e81;
-    --primary-950: #1e1b4b;
-  }
+@layer base {
+	:root {
+		--primary-50: #eef2ff;
+		--primary-100: #e0e7ff;
+		--primary-200: #c7d2fe;
+		--primary-300: #a5b4fc;
+		--primary-400: #818cf8;
+		--primary-500: #6366f1;
+		--primary-600: #4f46e5;
+		--primary-700: #4338ca;
+		--primary-800: #3730a3;
+		--primary-900: #312e81;
+		--primary-950: #1e1b4b;
+	}
 }
