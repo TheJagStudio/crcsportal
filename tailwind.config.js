@@ -4,6 +4,19 @@ module.exports = {
 		extend: {
 			colors: {
 				primary: {
+					50: "var(--primary-50)",
+					100: "var(--primary-100)",
+					200: "var(--primary-200)",
+					300: "var(--primary-300)",
+					400: "var(--primary-400)",
+					500: "var(--primary-500)",
+					600: "var(--primary-600)",
+					700: "var(--primary-700)",
+					800: "var(--primary-800)",
+					900: "var(--primary-900)",
+					950: "var(--primary-950)",
+				},
+				primary1: {
 					50: "#eef2ff",
 					100: "#e0e7ff",
 					200: "#c7d2fe",
@@ -56,20 +69,3 @@ const color = [
 	{ 50: "#fff7ed", 100: "#ffedd5", 200: "#fed7aa", 300: "#fdba74", 400: "#fb923c", 500: "#f97316", 600: "#ea580c", 700: "#c2410c", 800: "#9a3412", 900: "#7c2d12", 950: "#431407" },
 	{ 50: "#fef2f2", 100: "#fee2e2", 200: "#fecaca", 300: "#fca5a5", 400: "#f87171", 500: "#ef4444", 600: "#dc2626", 700: "#b91c1c", 800: "#991b1b", 900: "#7f1d1d", 950: "#450a0a" },
 ];
-// change primary color every 5 seconds and replace the color in the array
-// setInterval(() => {
-// 	let primaryColor = color[Math.floor(Math.random() * color.length)];
-// 	document.documentElement.style.setProperty("--primary", primaryColor[500]);
-// 	document.documentElement.style.setProperty("--primary-50", primaryColor[50]);
-// 	document.documentElement.style.setProperty("--primary-100", primaryColor[100]);
-// 	document.documentElement.style.setProperty("--primary-200", primaryColor[200]);
-// 	document.documentElement.style.setProperty("--primary-300", primaryColor[300]);
-// 	document.documentElement.style.setProperty("--primary-400", primaryColor[400]);
-// 	document.documentElement.style.setProperty("--primary-500", primaryColor[500]);
-// 	document.documentElement.style.setProperty("--primary-600", primaryColor[600]);
-// 	document.documentElement.style.setProperty("--primary-700", primaryColor[700]);
-// 	document.documentElement.style.setProperty("--primary-800", primaryColor[800]);
-// 	document.documentElement.style.setProperty("--primary-900", primaryColor[900]);
-// 	document.documentElement.style.setProperty("--primary-950", primaryColor[950]);
-// 	console.log(primaryColor);
-// }, 3000);

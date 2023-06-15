@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import LatestNews from "../Components/LatestNews/LatestNews";
 import Navbar from "../Components/Navbar/Navbar";
+import Footer from "../Components/Footer/Footer";
 const Homepage = () => {
 	const latestData = [
 		{
@@ -84,12 +85,21 @@ const Homepage = () => {
 		["/Circular/Sep/NAFCUB16915.pdf", "NOC for the existing Societies already registered under the Provision of MSCS Act, 2002"],
 		["/Circular/NOC2015.pdf", "No Objection Certificate(NOC) from Registrar of Cooperative Societies of States/UTs of Multi State Cooperative Societies having objects and functions relating to thrift and Credit and for Multipurpose Cooperative Societies"],
 	];
-
+	useEffect(() => {
+		let latestNews = document.getElementById("latestNews");
+		setInterval(() => {
+			let width = latestNews.offsetWidth;
+			latestNews.scrollBy(width, 0);
+			if (latestNews.scrollLeft + width * 2 >= latestNews.scrollWidth) {
+				latestNews.scrollLeft = 0;
+			}
+		}, 2000);
+	}, []);
 	return (
 		<>
 			<Navbar />
-			<div className="mt-[12rem] p-5 w-[95vw] mx-auto flex gap-5 h-fit">
-				<div className="w-[70vw]">
+			<div className="mt-3 p-5 w-[95vw] mx-auto flex flex-col-reverse lg:flex-row gap-5 h-fit transition-all duration-500">
+				<div className="lg:w-[70vw] w-full">
 					<div className="border-2 border-primary-600 p-4 rounded-xl shadow-lg ">
 						<p className="text-xl font-semibold text-primary-700 -900">Multi State Cooperative Societies ACT, 2002</p>
 					</div>
@@ -110,12 +120,13 @@ const Homepage = () => {
 						</ul>
 					</marquee>
 				</div>
-				<div className="w-[30vw]">
+				<div id="latestNews" className="w-full lg:w-[30vw] flex flex-row gap-5 lg:gap-5 lg:flex-col overflow-x-scroll noScrollBar px-2 snap-proximity snap-x drop-shadow-lg scroll-smooth">
 					{latestData.map((data, index) => (
 						<LatestNews key={index} data={data} />
 					))}
 				</div>
 			</div>
+			<Footer />
 		</>
 	);
 };

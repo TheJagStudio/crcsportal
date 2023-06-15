@@ -4,6 +4,7 @@ import Homepage from "./Pages/Homepage";
 import UserRegister from "./Pages/UserRegister";
 import UserLogin from "./Pages/UserLogin";
 import AdminLogin from "./Admin/Pages/AdminLogin";
+import React, { useState } from "react";
 
 function App() {
 	const color = [
@@ -25,7 +26,29 @@ function App() {
 		{ 50: "#fff7ed", 100: "#ffedd5", 200: "#fed7aa", 300: "#fdba74", 400: "#fb923c", 500: "#f97316", 600: "#ea580c", 700: "#c2410c", 800: "#9a3412", 900: "#7c2d12", 950: "#431407" },
 		{ 50: "#fef2f2", 100: "#fee2e2", 200: "#fecaca", 300: "#fca5a5", 400: "#f87171", 500: "#ef4444", 600: "#dc2626", 700: "#b91c1c", 800: "#991b1b", 900: "#7f1d1d", 950: "#450a0a" },
 	];
-
+	window.onload = () => {
+		localStorage.setItem("colorIndex", 0);
+		setInterval(() => {
+			let colorNew = color[localStorage.getItem("colorIndex")];
+			document.documentElement.style.setProperty("--primary-50", colorNew[50]);
+			document.documentElement.style.setProperty("--primary-100", colorNew[100]);
+			document.documentElement.style.setProperty("--primary-200", colorNew[200]);
+			document.documentElement.style.setProperty("--primary-300", colorNew[300]);
+			document.documentElement.style.setProperty("--primary-400", colorNew[400]);
+			document.documentElement.style.setProperty("--primary-500", colorNew[500]);
+			document.documentElement.style.setProperty("--primary-600", colorNew[600]);
+			document.documentElement.style.setProperty("--primary-700", colorNew[700]);
+			document.documentElement.style.setProperty("--primary-800", colorNew[800]);
+			document.documentElement.style.setProperty("--primary-900", colorNew[900]);
+			document.documentElement.style.setProperty("--primary-950", colorNew[950]);
+			if (parseInt(localStorage.getItem("colorIndex")) + 1 >= color.length) {
+				localStorage.setItem("colorIndex", 0);
+			} else {
+				localStorage.setItem("colorIndex", parseInt(localStorage.getItem("colorIndex")) + 1);
+			}
+			localStorage.setItem("colorIndex", localStorage.getItem("colorIndex"));
+		}, 5000);
+	};
 	return (
 		<Router>
 			<Routes>
