@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import Homepage from "./Pages/Homepage";
 import UserRegister from "./Pages/UserRegister";
 import UserLogin from "./Pages/UserLogin";
@@ -35,6 +36,9 @@ import StatusApplication from "./Pages/StatusApplication";
 
 import LiquidationList from "./Pages/LiquidationList";
 import Bank from "./Pages/Bank";
+
+// Footer pages
+import StateRegistrar from "./Pages/StateRegistrar"
 
 function App() {
 	const color = [
@@ -107,6 +111,7 @@ function App() {
 				<Route path="checklist" exact element={<Checklist />} />
 				<Route path="liquidation-list" exact element={<LiquidationList />} />
 				<Route path="banks" exact element={<Bank />} />
+				<Route path="state-registrar" exact element={<StateRegistrar />} />
 				<Route path="admin/login" element={<AdminLogin />} />
 			</Routes>
 		</Router>

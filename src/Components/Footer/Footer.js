@@ -8,7 +8,7 @@ const Footer = () => {
 					<div>
 						<ul className="sm:space-y-4 space-y-2.5">
 							<li>
-								<a href="#" title="" className="sm:sm:text-base text-sm text-sm text-white transition-all duration-200 hover:scale-110 origin-left hover:font-bold">
+								<a href="state-registrar" title="" className="sm:sm:text-base text-sm text-sm text-white transition-all duration-200 hover:scale-110 origin-left hover:font-bold">
 									State Registrars
 								</a>
 							</li>
