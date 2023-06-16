@@ -3,10 +3,27 @@ import React from "react";
 const AdminNavbar = () => {
 	return (
 		<>
-			<nav className="header fixed top-0 left-0 bg-primary-500 w-full print:hidden p-4 shadow-xl">
+			<nav className="header fixed top-0 left-0 bg-primary-500 w-full print:hidden p-4 shadow-xl z-40">
 				<div className="header-container relative flex w-full print:hidden">
 					<div className="flex w-full items-center justify-between">
-						<div className="">
+						<div className="ml-20 h-8 w-8 rounded-full p-0 bg-white flex items-center justify-center cursor-pointer" onClick={() => {
+							document.getElementById("sidebarContainer").classList.remove("max-w-[5vw]")
+							document.getElementById("sidebarContainer").classList.add("max-w-[12vw]")
+						}}>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width={25}
+								height={25}
+								fill="currentColor"
+								className="bi bi-list"
+								viewBox="0 0 16 16"
+
+							>
+								<path
+									fillRule="evenodd"
+									d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+								/>
+							</svg>
 						</div>
 
 						<div className="-mr-1.5 flex items-center space-x-2">
