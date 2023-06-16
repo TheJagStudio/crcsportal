@@ -33,17 +33,17 @@ const Footer = () => {
 					<div>
 						<ul className="sm:space-y-4 space-y-2.5">
 							<li>
-								<a href="#" title="" className="sm:text-base text-sm text-white transition-all duration-200 hover:scale-110 origin-left hover:font-bold">
+								<a href="circular" title="" className="sm:text-base text-sm text-white transition-all duration-200 hover:scale-110 origin-left hover:font-bold">
 									Circulars
 								</a>
 							</li>
 							<li>
-								<a href="#" title="" className="sm:text-base text-sm text-white transition-all duration-200 hover:scale-110 origin-left hover:font-bold">
+								<a href="latest-cerificate" title="" className="sm:text-base text-sm text-white transition-all duration-200 hover:scale-110 origin-left hover:font-bold">
 									Latest Certificates
 								</a>
 							</li>
 							<li>
-								<a href="#" title="" className="sm:text-base text-sm text-white transition-all duration-200 hover:scale-110 origin-left hover:font-bold">
+								<a href="amendment-certificate" title="" className="sm:text-base text-sm text-white transition-all duration-200 hover:scale-110 origin-left hover:font-bold">
 									Amendment (Bye Laws)
 								</a>
 							</li>

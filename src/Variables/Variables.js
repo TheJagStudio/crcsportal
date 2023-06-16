@@ -23161,3 +23161,2771 @@ export const complain = [
 	[309, "Applicability of Prevention of Money Laundering Act (PMLA) , 2002 to Multi State Cooperative Societies (MSCSs)", "08-Jan-18", "Download"],
 	[310, "Providing of Information about subsidiary companies floated by KRIBHCO", "20-Dec-17", "Download"],
 ];
+
+export const oldComplaints = [
+	[
+		"Providing of Information about subsidiary companies floated by KRIBHCO",
+		"20.12.2017"
+	],
+	[
+		"Initiate winding up of the Prompt Multi State Cooperative Building Society Ltd, Tamil Nadu",
+		"15.11.2017"
+	],
+	[
+		"Complaint against Humara India Credit Cooperative Society Ltd : Hearing on 15-11-2017",
+		"13.11.2017"
+	],
+	[
+		"Complaint regarding opening of various branches without permission of the Central Registar and a no. of complaints regarding non repayment of deposits to the depositors againts the society have been received in this department.",
+		"07.11.2017"
+	],
+	[
+		"Complaint against Prompt Multi State Cooperative Building Society Ltd, Tamil Nadu",
+		"17.10.2017"
+	],
+	[
+		"Notice issued for Hearing on 25/10/2017 for Bappashri Multi State Vechile Services Cooperative Siciety Ltd",
+		"12.10.2017"
+	],
+	[
+		"Affairs of Skylark Multi State Cooperative Group Housing Society Ltd, New Delhi",
+		"11.10.2017"
+	],
+	[
+		"Prior approval of Central Registrar for opening of new branches for Adarsh Credit Cooperatice Society Ltd",
+		"09.10.2017"
+	],
+	[
+		"Affairs of Multi State Cooperative Societies u/s of MSCS Act, 2002- Hearing on 24.10.2017 for Champion Multi State Agro Purpose Cooperative Societies Ltd",
+		"05.10.2017"
+	],
+	[
+		"Complaint against Prompt Multi State Cooperative Building Society Ltd, Tamil Nadu",
+		"29.09.2017"
+	],
+	[
+		"Non Payment of deposits by Shree Mahalaxmi Multi State Cooperative Credit Society Ltd, Maharashtra",
+		"28.09.2017"
+	],
+	[
+		"Complaints against Shree Dhokeshwar Multi State Urban Cooperative Society Ltd, Maharashtra",
+		"18.09.2017"
+	],
+	[
+		"Affairs of Skylark Multi State Cooperative Group Housing Society Ltd, New Delhi",
+		"18.09.2017"
+	],
+	[
+		"Complaints against Shubh Kalyan Multi State Cooperative Credit  Society Ltd, Maharashtra",
+		"12.09.2017"
+	],
+	[
+		"Complaints against Shree Mahalaxmi Multi State Cooperative Credit Society Ltd, Maharashtra",
+		"18.08.2017"
+	],
+	[
+		"Grant permission for starting & increase new Area of Operation for Anuraj Multi State Urban Cooperative Credit Society Ltd, Maharashtra",
+		"17.08.2017"
+	],
+	[
+		"Complaints against Jyoti Credit & savings Swabhlambi Sahakari Samiti Ltd, New Delhi",
+		"14.08.2017"
+	],
+	[
+		"Complaints against Shree Dhokeshwar Multi State Urban Credit Society Ltd, Maharashtra",
+		"14.08.2017"
+	],
+	[
+		"Hapur Kisan Bahuuddeshiya Multi State Cooperative Society Ltd, Uttar Pradesh",
+		"24.07.2017"
+	],
+	[
+		"Complaint against Bhandara Laxmi Multi State Credit Cooperative Society Ltd, Maharashtra",
+		"24.07.2017"
+	],
+	[
+		"Complaint against Rainbow  Multi State Credit Cooperative  Society Ltd, Jharkhand",
+		"24.07.2017"
+	],
+	[
+		"Champion Multi State Agro purpose Cooperative Society Ltd, New Delhi",
+		"July, 2017"
+	],
+	[
+		"Complaint against Anuraj Multi State Urban Cooperative Credit Society Ltd, Maharashtra",
+		"24.07.2017"
+	],
+	[
+		"Non-repayment of deposits by Shri Mahalaxmi Multi State Cooperative Credit Society Ltd, Ahmednagar",
+		"19.07.2017"
+	],
+	[
+		"Affairs of Multi State Cooperative Societies u/s 108 of MSCS Act, 2002 Vijay Multi State Cooperative Credit Society Ltd",
+		"19.07.2017"
+	],
+	[
+		"Pfizer Employees Cooperative Credit Society Ltd, Mumbai under Liquidation",
+		"17.07.2017"
+	],
+	[
+		"NE & EC Railways Employees Multistate Primary Cooperative Bank Ltd, Gorakhpur",
+		"14.07.2017"
+	],
+	[
+		"Matters relating to JKV Multistate Credit Cooperative Society Ltd, Lucknow",
+		"14.07.2017"
+	],
+	[
+		"Notice issued to Gab Gramya Vikas Credit Cooperative Ltd, Lucknow",
+		"11.07.2017"
+	],
+	[
+		"Complaints against Bhandara Laxmi Multi State Credit Cooperative Society Ltd, Bhandara",
+		"11.07.2017"
+	],
+	[
+		"Complaints against Shubh Kalyan Multi State Cooperative Credit  Society Ltd, Osamanabad",
+		"13.07.2017"
+	],
+	[
+		"Collection of deposits by Multi State Cooperative Societies",
+		"03.07.2017"
+	],
+	[
+		"Staff Service Rules of Multi State Cooperative Societies/ Banks",
+		"03.07.2017"
+	],
+	[
+		"Appeal received from Shri Vonod Pratap Singh under RTI Act, 2005",
+		"30.06.2017"
+	],
+	[
+		"Affairs of  MSCS u/s 108 of MSCS Act, 2002 - Champion Multi State Agro Purpose Cooperative Society Ltd",
+		"23.06.2017"
+	],
+	[
+		"The Cuttack Credit Cooperative Society Ltd, Cuttack : Order under Section 22 of MSCS Act, 2002",
+		"12.06.2017"
+	],
+	[
+		"Complaint against Anuraj Multi State Urban Cooperative Credit Society Ltd, Maharashtra",
+		"14.06.2017"
+	],
+	[
+		"Corrigendum issued for Chindanand Basaprabhu Kore Sahakari Sakkare Karkhane Niyamit, Chikodi - Karnataka",
+		"12.06.2017"
+	],
+	[
+		"Prohibition of diversion of funds from core business to other activities - Dated 09-06-2017",
+		"09.06.2017"
+	],
+	[
+		"Association of employees in management decision making process - Dated 09-06-2017",
+		"09.06.2017"
+	],
+	[
+		"Complaint against BNP Multi State Credit Cooperative Society Ltd",
+		"08.05.2017"
+	],
+	[
+		"Filing of Annual Returns for the year 2015-16 under section 120 of MSCS Act, 2002 dated 12-04-2017",
+		"12.04.2017"
+	],
+	[
+		"Filing of Annual Returns for the year 2015-16 under section 120 of MSCS Act, 2002",
+		"31.03.2017"
+	],
+	[
+		"Discussion of section 64 of the Multi State Cooperative Societies ACt, 2002",
+		"31.03.2017"
+	],
+	[
+		"Kisan Agro-tech Cooperative Society Ltd : Filling of Annual Returns under section 120 of MSCS Act, 2002",
+		"28.03.2017"
+	],
+	[
+		"Hearing on 16/3/2017 for Grab Gramya Vikas Credit Society Ltd, Uttar Pradesh",
+		"06.03.2017"
+	],
+	[
+		"Filing of Annual Returns under section 120 of the MSCS Act, 2002 by  Lotus Agricultural & Marketing Cooperative Society Ltd, New DelhiKisan Agro-tech Cooperative Ltd, New DelhiKamuna Credit Cooperative Society Ltd, Uttar PradeshAnant-Nidhi Cooperative Society Ltd, Uttar PradeshNavkettan Agricultural Marketing  Cooperative Society Ltd, Madhya PradeshStar Multipurpose Cooperative Society Ltd, Andhra Pradesh",
+		"22.02.2017"
+	],
+	[
+		"Filing of Annual Returns under section 120 of the MSCS Act, 2002 by  Lotus Agricultural & Marketing Cooperative Society Ltd, New DelhiKisan Agro-tech Cooperative Ltd, New DelhiAdarsh Credit Cooperative Society Ltd, RajasthanKamuna Credit Cooperative Society Ltd, Uttar PradeshAnant-Nidhi Cooperative Society Ltd, Uttar PradeshNavkettan Agricultural Marketing  Cooperative Society Ltd, Madhya PradeshHumara India Credit Cooperative Society Ltd,West BengalStar Multipurpose Cooperative Society Ltd, Andhra Pradesh",
+		"31.01.2017"
+	],
+	[
+		"ATTENTION URGENT : Letter to Sahara Credit Cooperative Society Ltd, Lucknow, UP",
+		"23.01.2017"
+	],
+	[
+		"ATTENTION URGENT : Letter to Saharayn Universal Multipurpose Society Ltd, Bhopal , MP",
+		"23.01.2017"
+	]
+]
+
+export const hearingSheet = [
+	[
+		1,
+		"Home Multi State Cooperative Housing Society Ltd",
+		"05-Apr-23"
+	],
+	[
+		2,
+		"Lokmanya Multipurpose Cooperative Society Limited, Belgaum, Karnataka: Order Sheet of Hearing held on 14.02.2022",
+		"14-Feb-22"
+	],
+	[
+		3,
+		"Lotus Agricultural and Marketing Cooperative Society Ltd., Pitampura, New Delhi: Order Sheet of Hearing held on 04.02.2022",
+		"04-Feb-22"
+	],
+	[
+		4,
+		"Kisan Agro -Tech Cooperative Society Ltd., New Delhi: Order Sheet of Hearing held on 04.02.2022",
+		"04-Feb-22"
+	],
+	[
+		5,
+		"Shree Swastik Credit Cooperative Society Limited, Pali, Rajasthan:Order Sheet of Hearing held on 28.01.2022",
+		"28-Jan-22"
+	],
+	[
+		6,
+		"Home Multi State Cooperative Housing Society Ltd., New Delhi:Order Sheet of Hearing held on 20.01.2022",
+		"20-Jan-22"
+	],
+	[
+		7,
+		"Hearing of complaints against Malaika Multi State Cooperative Credit Society Ltd., Mumbai, Maharashtra before the Central Registrar of Cooperative Societies (CRCS) through video conferencing (VC)",
+		"14-Jan-22"
+	],
+	[
+		8,
+		"Panchawati Multi-State Cooperative Credit Society Limited, Bangalore: Order Sheet of Hearing held on 12.01.2022",
+		"12-Jan-22"
+	],
+	[
+		9,
+		"Pride Multi-State Credit Cooperative Society Ltd., Hooghly, West Bengal: Order Sheet of Hearing held on 05.01.2022",
+		"05-Jan-22"
+	],
+	[
+		10,
+		"Hearing In the matter of Zoroastrian Cooperative Bank Limited before Central Registrar of Cooperative Societies: Order Sheet of Hearing held on 06.01.2022",
+		"26-Nov-21"
+	],
+	[
+		11,
+		"Buldana Urban Cooperative Credit Society Ltd. Buldana , Maharashtra :Order Sheet of Hearing held on 23.11.2021",
+		"23-Nov-21"
+	],
+	[
+		12,
+		"Malaika Multi State Cooperative Credit Society Ltd: Order Sheet of Hearing held on 01.11.2021",
+		"01-Nov-21"
+	],
+	[
+		13,
+		"National Federation of Farmers Procurement, Processing, Retailing Cooperatives of India Ltd. (NACOF), Order Sheet of Hearing held on 05.03.2021",
+		"05-Mar-21"
+	],
+	[
+		14,
+		"National Federation of Fishermen Cooperative Ltd (FISHCOPFED): Order sheet issued for hearing on 23.02.2021",
+		"23-Feb-21"
+	],
+	[
+		15,
+		"Stars Multipurpose Cooperative Society Ltd : Order Sheet of Hearing held on 17.02.2021",
+		"17-Feb-21"
+	],
+	[
+		16,
+		"Uttar Pradesh Cooperative Processing and Cold Storage Federation Ltd. : Order Sheet of hearing held on 15.02.2021",
+		"15-Feb-21"
+	],
+	[
+		17,
+		"Home Multi State cooperative Housing Society Ltd : Order Sheet of Hearing held on 12.02.2021",
+		"12-Feb-21"
+	],
+	[
+		18,
+		"Stars Multipurpose Cooperative Society Ltd : Order Sheet of Hearing held on 12.02.2021",
+		"12-Feb-21"
+	],
+	[
+		19,
+		"Nagar Urban Cooperative bank Ltd : Ordersheet issued on 04.02.2021",
+		"04-Feb-21"
+	],
+	[
+		20,
+		"Skylark Multi-State Cooperative Group Housing Society Ltd. : Ordersheet issued on 03.02.2021",
+		"03-Feb-21"
+	],
+	[
+		21,
+		"Imayam Multi State Housing Cooperative  Society Ltd : Ordersheet issued for hearing on 18.01.2021",
+		"18-Jan-21"
+	],
+	[
+		22,
+		"Home Multi State cooperative Housing Society Ltd : Order Sheet of Hearing held on 11.12.2021",
+		"11-Dec-20"
+	],
+	[
+		23,
+		"Skylark Multi-State Cooperative Group Housing Society Ltd. : Notice issued for hearing on 29.01.2021",
+		"07-Dec-20"
+	],
+	[
+		24,
+		"Uttar Pradesh Upbhogta Sahkari Sangh Ltd : Hearing on 17.12.2020",
+		"03-Dec-20"
+	],
+	[
+		25,
+		"National Federation of Fishermen Cooperative Ltd (FISHCOPFED): Order sheet issued for hearing on 27.11.2020 next hearing will be on 23.12.2020",
+		"27-Nov-20"
+	],
+	[
+		26,
+		"Stars Multipurpose Cooperative Society Ltd : Order Sheet of Hearing held on 23.12.2020",
+		"20-Nov-20"
+	],
+	[
+		27,
+		"Humara India Credit Cooperative Society Ltd : Order Sheet of Hearing held on 20.11.2020 next hearing on 23.12.2020",
+		"20-Nov-20"
+	],
+	[
+		28,
+		"National Federation of Farmers Procurement, Processing, Retailing Cooperatives of India Ltd. (NACOF), Order Sheet of Hearing held on 19.11.2020 next hearing 18.12.2020",
+		"19-Nov-20"
+	],
+	[
+		29,
+		"Saharayn Universal Multi purpose Society Ltd : Order Sheet of Hearing held on 19.11.2020",
+		"19-Nov-20"
+	],
+	[
+		30,
+		"Sahara Credit Cooperative Society Ltd : Order Sheet of Hearing held on 23.12.2020",
+		"19-Nov-20"
+	],
+	[
+		31,
+		"Nagar Urban Cooperative bank Ltd : Ordersheet issued on 11.11.2020",
+		"11-Nov-20"
+	],
+	[
+		32,
+		"Imayam Multi State Housing Cooperative Society Ltd : Ordersheet issued for hearing on 27.10.2020",
+		"27-Oct-20"
+	],
+	[
+		33,
+		"National Federation of Fishermen Cooperative Ltd (FISHCOPFED): Ordersheet issued for hearing on 27.10.2020 next hearing will be on 27.11.2020",
+		"27-Oct-20"
+	],
+	[
+		34,
+		"Sahara Credit Cooperative Society Ltd : Order Sheet of Hearing held on 24.09.2020",
+		"24-Sep-20"
+	],
+	[
+		35,
+		"Humara India Credit Cooperative Society Ltd : Order sheet issued for hearing held on 24.09.2020",
+		"24-Sep-20"
+	],
+	[
+		36,
+		"Stars Multipurpose Cooperative Society Ltd : Order Sheet of Hearing held on 24.09.2020",
+		"24-Sep-20"
+	],
+	[
+		37,
+		"Saharayn Universal Multi purpose Society Ltd : Order Sheet of Hearing held on  24.09.2020",
+		"24-Sep-20"
+	],
+	[
+		38,
+		"National Federation of Farmers Procurement, Processing, Retailing Cooperatives of India Ltd. (NACOF), Order Sheet of Hearing held on 23.09.2020 next hearing 28.10.2020",
+		"23-Sep-20"
+	],
+	[
+		39,
+		"Imayam Multi State Housing Cooperative  Society Ltd : Ordersheet issued for hearing on 18.09.2020 next hearing will be on 27.10.2020",
+		"18-Sep-20"
+	],
+	[
+		40,
+		"National Federation of Farmers Procurement, Processing, Retailing Cooperatives of India Ltd. (NACOF), Order Sheet of Hearing held on 28.08.2020 next hearing 11.09.2020",
+		"28-Aug-20"
+	],
+	[
+		41,
+		"Bombay Mercantile Cooperative Bank Ltd: Ordersheet - Next hearing on 23.09.2020",
+		"21-Aug-20"
+	],
+	[
+		42,
+		"Stars Multipurpose Cooperative Society Ltd : Order Sheet of Hearing held on 17.08.2020 and next hearing on 24.09.2020",
+		"17-Aug-20"
+	],
+	[
+		43,
+		"Humara India Credit Cooperative Society Ltd : Order sheet issued for hearing held on 17.08.2020 and next hearing on 24.09.2020",
+		"17-Aug-20"
+	],
+	[
+		44,
+		"Sahara Credit Cooperative Society Ltd : Order Sheet of Hearing held on 14.08.2020",
+		"14-Aug-20"
+	],
+	[
+		45,
+		"Saharayn Universal Multi purpose Society Ltd : Order Sheet of Hearing held on 14.08.2020",
+		"14-Aug-20"
+	],
+	[
+		46,
+		"Hearing matter of NCLF, Order Sheet of Hearing held on 10.08.2020",
+		"10-Aug-20"
+	],
+	[
+		47,
+		"Saharayn Universal Multi purpose Society Ltd : Order Sheet of Hearing held on  22.07.2020",
+		"22-Jul-20"
+	],
+	[
+		48,
+		"Sahara Credit Cooperative Society Ltd : Order Sheet of Hearing held on 22.07.2020",
+		"22-Jul-20"
+	],
+	[
+		49,
+		"Proutist Multi State Cooperative Society Limited, Ghaziabad : Order Sheet of Hearing held on 30.06.2020",
+		"30-Jun-20"
+	],
+	[
+		50,
+		"Green Agro Purpose Cooperative  Society Limited,: Order Sheet of Hearing held on 09.032020.",
+		"02-Jun-20"
+	],
+	[
+		51,
+		"Prithvi Credit Cooperative Society Limited,: Order Sheet of Hearing held on 06.03.2020",
+		"02-Jun-20"
+	],
+	[
+		52,
+		"Rajasthani Multi State Cooperative Credit Society Limited,: Order Sheet of Hearing held on 04.03.2020",
+		"14-May-20"
+	],
+	[
+		53,
+		"A.P Mahesh Cooperative Bank Limited,: Order Sheet of Hearing held on 10.02.2020 and next hearing on 17.2.2020",
+		"10-Feb-20"
+	],
+	[
+		54,
+		"Bombay Mercantile Cooperative Bank Ltd : : Order Sheet of Hearing held on 07.02.2020 and next hearing on 12.03.2020",
+		"07-Feb-20"
+	],
+	[
+		55,
+		"AP Mahesh Cooperative Bank Limited : Order Sheet of Hearing held on 03.02.2020 and next hearing on 10.2.2020",
+		"03-Feb-20"
+	],
+	[
+		56,
+		"Saharayn Universal Multi purpose Society Ltd : Order Sheet of Hearing held on 22.01.2020 and next hearing on 28.02.2020",
+		"22-Jan-20"
+	],
+	[
+		57,
+		"National Federation of Farmers Procurement, Processing, Retailing Cooperatives of India Ltd. (NACOF), Order Sheet of Hearing held on 21.01.2020 and next hearing on 24.02.2020",
+		"21-Jan-20"
+	],
+	[
+		58,
+		"Humara India Credit Cooperative Society Ltd : Order Sheet of Hearing held on 21.01.2020 and next hearing on 25.02.2020",
+		"21-Jan-20"
+	],
+	[
+		59,
+		"Stars Multipurpose Cooperative Society Ltd : Order Sheet of Hearing held on 21.01.2020 and next hearing on 28.02.2020",
+		"21-Jan-20"
+	],
+	[
+		60,
+		"AP Mahesh Cooperative Bank Limited : Order Sheet of Hearing held on 21.01.2020 and next hearing on 3.2.2020",
+		"21-Jan-20"
+	],
+	[
+		61,
+		"Mehsana Urban Cooperative Bank Limited Order Sheet of Hearing held on 21.01.2020 and next hearing on 24.2.2020",
+		"21-Jan-20"
+	],
+	[
+		62,
+		"Sahara Credit Cooperative Society Ltd : Order Sheet of Hearing held on 21.01.2020 and next hearing on 28.02.2020",
+		"21-Jan-20"
+	],
+	[
+		63,
+		"Aerocity Dwarka Multistate Co-operative Group Housing Society Ltd, New Delhi : Order Sheet for hearing held on 15.01.2020",
+		"15-Jan-20"
+	],
+	[
+		64,
+		"Imayam Multi State Housing Cooperative Society Ltd : : Order Sheet of Hearing held on 15.01.2020 and next hearing on 3.2.2020",
+		"15-Jan-20"
+	],
+	[
+		65,
+		"National Federation of Farmers Procurement, Processing &amp; Retailing Cooperatives of India Ltd. (NACOF),  Order Sheet of Hearing held on 9.01.2020 and next hearing on 21.01.2020",
+		"09-Jan-20"
+	],
+	[
+		66,
+		"Bombay Mercantile Cooperative Bank Ltd: Order Sheet",
+		"20-Dec-19"
+	],
+	[
+		67,
+		"Saharayn Universal Multi purpose Society Ltd : Order sheet issued for hearing held on 13.12.2019",
+		"13-Dec-19"
+	],
+	[
+		68,
+		"Sahara Credit Cooperative Society Ltd : Order sheet issued for hearing held on 09.12.2019",
+		"09-Dec-19"
+	],
+	[
+		69,
+		"Stars Multipurpose Cooperative Society Ltd : Order sheet issued for hearing held on 09.12.2019",
+		"09-Dec-19"
+	],
+	[
+		70,
+		"Humara India Credit Cooperative Society Ltd : Order sheet issued for hearing held on 06.12.2019",
+		"06-Dec-19"
+	]
+]
+
+export const latestCircular = [
+	[
+	 1,
+	 "Computerization of office of Central Registrar of Cooperative Societies",
+	 "23 Sep 2022",
+	 "Download"
+	],
+	[
+	 2,
+	 "Computerization of office of Central Registrar of Cooperative Societies",
+	 "22 Sep 2022",
+	 "Download"
+	],
+	[
+	 3,
+	 "Procurement of Goods and Services through GeM (Government e-Marketplace)",
+	 "26 Jul 2022",
+	 "Download"
+	],
+	[
+	 4,
+	 "On-boarding of Cooperative Societies for procurement of Goods and Services through GeM (Government e-Marketplace)-reg.",
+	 "15 Jul 2022",
+	 "Download"
+	],
+	[
+	 5,
+	 "Hon�ble Delhi High Court Order dated 22.03.2022 in the matter of Sahara Credit Cooperative Society Ltd., Saharayn Universal Multipurpose Society Ltd. and Humara India Credit Cooperative Society Ltd.- regarding not to collect any further deposits",
+	 "08 Apr 2022",
+	 "Download"
+	],
+	[
+	 6,
+	 "Hon�ble Delhi High Court vide Order dated 22.03.2022 passed in W.P. (C) 669/2021, W.P. (C) 670/2021 &amp; W.P. (C) 817/2021 has restrained Sahara Credit Cooperative Society Ltd., Lucknow, Uttar Pradesh, Saharayn Universal Multipurpose Society Ltd., Bhopal, Madhya Pradesh &amp; Humara India Credit Cooperative Society Ltd., Kolkata, West Bengal from collecting any deposits from the public.",
+	 "08 Apr 2022",
+	 "Download"
+	],
+	[
+	 7,
+	 "Filling of Annual Returns under Section 120 of the MSCS Act, 2002-reg.",
+	 "30 Mar 2022",
+	 "Download"
+	],
+	[
+	 8,
+	 "Notification : Appointment of Shri Vijay Kumar, IAS(AGMUT:92) as Central Registrar of Cooperative Societies",
+	 "21 Dec 2021",
+	 "Download"
+	],
+	[
+	 9,
+	 "Extension in time-period for holding Annual General Meeting (AGM) by Multi-State Cooperative Banks and societies-reg.",
+	 "13 Oct 2021",
+	 "Download"
+	],
+	[
+	 10,
+	 "Filing of Annual Returns under Section 120 of the MSCS Act, 2002",
+	 "31 Aug 2021",
+	 "Download"
+	],
+	[
+	 11,
+	 "Holding of Annual General Meeting (AGM) through Video Conferencing or Other Audio Visual Means(OAVM)",
+	 "23 Aug 2021",
+	 "Download"
+	],
+	[
+	 12,
+	 "Filling of Annual Returns for the year 2020-21 and earlier years under section 120 of the MSCS Act,2002",
+	 "04 Aug 2021",
+	 "Download"
+	],
+	[
+	 13,
+	 "Power conferred under section 108 of the Multi State Cooperative Societies Act,2002",
+	 "04 Aug 2021",
+	 "Download"
+	],
+	[
+	 14,
+	 "Collection of deposits by Multi State Cooperative Societies",
+	 "25 Jun 2021",
+	 "Download"
+	],
+	[
+	 15,
+	 "Extension in time-period for holding Elections",
+	 "15 Jan 2021",
+	 "Download"
+	],
+	[
+	 16,
+	 "Extension in time-period for holding Annual General Meeting",
+	 "15 Jan 2021",
+	 "Download"
+	],
+	[
+	 17,
+	 "Extension of time period for conducting Elections in Multi - State Cooperative Societies - reg.",
+	 "14 Sep 2020",
+	 "Download"
+	],
+	[
+	 18,
+	 "Guidelines on conduct of AGM by Multi State Cooperative Banks-reg",
+	 "25 Aug 2020",
+	 "Download"
+	],
+	[
+	 19,
+	 "Extension of time period for conducting Annual General Meeting (AGM) in Multi-State Cooperative Societies-reg.",
+	 "24 Aug 2020",
+	 "Download"
+	],
+	[
+	 20,
+	 "Furnishing Email ID and Mobile No of the CEO of the Multi State Cooperative Societies - reg",
+	 "04 Jun 2020",
+	 "Download"
+	],
+	[
+	 21,
+	 "Communication related to Multi State Urban Cooperative Banks (as also, Multi State Cooperative Societies Ltd)",
+	 "02 Jun 2020",
+	 "Download"
+	],
+	[
+	 22,
+	 "Conduct of Board Meetings through Video Conferencing or other audio video means",
+	 "22 May 2020",
+	 "Download"
+	],
+	[
+	 23,
+	 "Request to submit contact details of the applicants/Chief Promoter of the society applied for New Registration under MSCS Act,2002-reg.",
+	 "01 May 2020",
+	 "Download"
+	],
+	[
+	 24,
+	 "User guide on setting up Video Conference(VC)  Desktop/Mobile for personal hearing before CRCS",
+	 "30 Apr 2020",
+	 "Download"
+	],
+	[
+	 25,
+	 "Circular related to Multi State Cooperative Societies in view of COVID 19",
+	 "26 Mar 2020",
+	 "Download"
+	],
+	[
+	 26,
+	 "Filing of Annual Returns for the year 2018-19 under section 120 of MSCS Act,2002",
+	 "12 Feb 2020",
+	 "Download"
+	],
+	[
+	 27,
+	 "Panel of Returning Officer for Conducting the Elections of the Board of Directors of the Multi-State Co-operative Societies and Banks.",
+	 "27 Dec 2019",
+	 "Download"
+	],
+	[
+	 28,
+	 "Obtaining prior approval of CRCS for opening of a new branch/es or place/s of business of a Multi State Cooperative Societies-reg",
+	 "16 Dec 2019",
+	 "Download"
+	],
+	[
+	 29,
+	 "Gazatte Notification for Section 124 of the MSCS Act 2002 dated 02.12.2019",
+	 "02 Dec 2019",
+	 "Download"
+	],
+	[
+	 30,
+	 "Notification : Appointment of Shri Vivek Aggarwal, IAS(MP:94) as Central Registrar of Cooperative Societies",
+	 "11 Nov 2019",
+	 "Download"
+	],
+	[
+	 31,
+	 "Dealing of business with MSCS on which decision has taken to winding up orders have not been passed",
+	 "13 Feb 2019",
+	 "Download"
+	],
+	[
+	 32,
+	 "Filing of Annual Returns for the years 2016-17 and 2017-18 under section 120 of MSCS Act, 2002",
+	 "19 Dec 2018",
+	 "Download"
+	],
+	[
+	 33,
+	 "Furnishing of Information to Registrar of Cooperative Societies : Full details of their existing branches",
+	 "02 Nov 2018",
+	 "Download"
+	],
+	[
+	 34,
+	 "Notification : Appointment of Dr. Abhilaksh Likhi, IAS(HY:91) as Central Registrar of Cooperative Societies",
+	 "11 Oct 2018",
+	 "Download"
+	],
+	[
+	 35,
+	 "Information/documents required under section 11(4)(g) in addition to Section 11(4) along with the Amendment application",
+	 "27 Jul 2018",
+	 "Download"
+	],
+	[
+	 36,
+	 "Applicability of Prevention of Money Laundering Act (PMLA) , 2002 to Multi State Cooperative Societies (MSCSs)",
+	 "08 Jan 2018",
+	 "Download"
+	],
+	[
+	 37,
+	 "Direction issued to All Multi State Cooperative Societies regarding violation of provision of provisions of section 116 of MSCS Act, 2002",
+	 "30 Jan 2012",
+	 "Download"
+	]
+]
+
+export const circular2017 = [
+	[
+	   "Bringing of Multi State Cooperative Societies under jurisdction of Central Vigilance Commission",
+	   "05.10.2017"
+	],
+	[
+	   "Disqualification for being member of the Board of Multi State Cooperative Societies / Banks",
+	   "24.07.2017"
+	],
+	[
+	   "Filing of Annual Returns under section 120 of MSCS Act, 2002",
+	   "11.07.2017"
+	],
+	[
+	   "Collection of deposits by Multi State Cooperative Societies",
+	   "03.07.2017"
+	],
+	[
+	   "Staff Service Rules of Multi State Cooperative Societies/ Banks",
+	   "03.07.2017"
+	],
+	[
+	   "Prohibition of diversion of funds from core business to other activities - Dated 09-06-2017",
+	   "09.06.2017"
+	],
+	[
+	   "Association of employees in management decision making process - Dated 09-06-2017",
+	   "09.06.2017"
+	],
+	[
+	   "Filing of Annual Returns for the year 2015-16 under section 120 of MSCS Act, 2002 dated 12-04-2017",
+	   "12.04.2017"
+	],
+	[
+	   "Filing of Annual Returns for the year 2015-16 under section 120 of MSCS Act, 2002",
+	   "31.03.2017"
+	],
+	[
+	   "Discussion of section 64 of the Multi State Cooperative Societies ACt, 2002",
+	   "31.03.2017"
+	]
+]
+
+export const circular2016 = [
+	[
+	 "Documents/Informations to be furnished for approval of Central Registrar for opening of a new branch/es or place/s of business of a Multi State Cooperative Societies",
+	 "01.12.2016"
+	],
+	[
+	 "LATEST AMENDMENT in the MSCS Rules 2002 vide notification",
+	 "16.08.2016"
+	],
+	[
+	 "Claimimg extension of their area of operation without any registration from CRCS",
+	 "17.08.2016"
+	]
+]
+
+export const circular2015 = [
+	[
+	   "Judgement of Hon'ble High Court of Rajasthan at Jodhpur in D.B Civil Writ Petition No 26/2013 in the matter of Sajjan Singh Bhati Vs State of Rajasthan",
+	   "01.12.2016"
+	],
+	[
+	   "Documents/Informations to be furnished for approval of Central Registrar for opening of a new branch/es or place/s of business of a Multi State Cooperative Societies",
+	   "01.12.2016"
+	],
+	[
+	   "LATEST AMENDMENT in the MSCS Rules 2002 vide notification",
+	   "16.08.2016"
+	],
+	[
+	   "Claimimg extension of their area of operation without any registration from CRCS",
+	   "17.08.2016"
+	],
+	[
+	   "Online Filing of Annual Returns for the year 2014-15 Click Here ! Registration",
+	   "20.10.2015"
+	],
+	[
+	   "NOC for the existing Societies already registered under the Provision of MSCS Act, 2002",
+	   "16.09.2015"
+	],
+	[
+	   "Fit & Proper Criteria for CEOs of Multi State Urban Cooperative Banks",
+	   "2015 & 2011"
+	],
+	[
+	   "No Objection Certificate(NOC) from Registrar of Cooperative Societies of States/UTs of Multi State Cooperative Societies having objects and functions relating to thrift and Credit and for Multipurpose Cooperative Societies",
+	   "22.07.2015"
+	],
+	[
+	   "Filing of Annual Returns for the year 2013-14 & 2014-15 under section 120 of the MSCS Act, 2002",
+	   "25.3.2015"
+	],
+	[
+	   "Registration and Extension of Area of Operation of MSCS having objects relating to thrift & Credit",
+	   "26-03-2014"
+	],
+	[
+	   "Gazette notification dated 24-02-2003 regarding delegation of powers of Arbitration to State RCS",
+	   "24.02.2003"
+	],
+	[
+	   "No Objection Certificate(NOC) from Registrar of Cooperative Societies of States/UTs of Multi State Cooperative Societies having objects and functions relating to thrift and Credit",
+	   "29.5.2013"
+	],
+	[
+	   "Inspection of MSCS u/s 108 of the MSCS ACt, 2002",
+	   "29.5.2013"
+	],
+	[
+	   "The Constitution (97 Amendment) Act, 2011",
+	   "04.2.2013"
+	],
+	[
+	   "Submission of names of Officers/Employees for deputing as a Returning/Polling Officers",
+	   "06.2.2013"
+	],
+	[
+	   "Other Circulars",
+	   "30.1.2013"
+	]
+]
+
+export const latestCerti = [
+	[
+	 1,
+	 "Mahesh Multi State Cooperative Credit Society Ltd.",
+	 "Amendments",
+	 "MAHARASHTRA",
+	 "AHMEDNAGAR",
+	 "12 Jun 2023",
+	 "Download"
+	],
+	[
+	 2,
+	 "Heaven Multi State Agro Cooperative Society Ltd",
+	 "Amendments",
+	 "UTTAR PRADESH",
+	 "DEORIA",
+	 "06 Jun 2023",
+	 "Download"
+	],
+	[
+	 3,
+	 "Chambal Agriculture Marketing Cooperative Ltd",
+	 "Amendments",
+	 "MADHYA PRADESH",
+	 "BHIND",
+	 "06 Jun 2023",
+	 "Download"
+	],
+	[
+	 4,
+	 "Vikas multi state Agro Coop. Society ltd.",
+	 "New Registration",
+	 "KERALA",
+	 "PALAKKAD",
+	 "31 May 2023",
+	 "Download"
+	],
+	[
+	 5,
+	 "Lakshyavedh multi specialty  cooperative Hospital and Research Center Ltd. society ltd.",
+	 "New Registration",
+	 "MAHARASHTRA",
+	 "AHMEDNAGAR",
+	 "30 May 2023",
+	 "Download"
+	],
+	[
+	 6,
+	 "The Ismailia Cooperative Credit Society Ltd.",
+	 "Conversion",
+	 "TELANGANA",
+	 "HYDERABAD",
+	 "26 May 2023",
+	 "Download"
+	],
+	[
+	 7,
+	 "Lustiness Janhit Credit Cooperative Society Ltd.,",
+	 "Amendments",
+	 "NEW DELHI",
+	 "NEW DELHI",
+	 "26 May 2023",
+	 "Download"
+	],
+	[
+	 8,
+	 "Manav Kalyan Credit Coop. Society Ltd.,",
+	 "Amendments",
+	 "NEW DELHI",
+	 "NEW DELHI",
+	 "25 May 2023",
+	 "Download"
+	],
+	[
+	 9,
+	 "Jeeva Shakthi Housing Multi State Coop.Society Ltd.",
+	 "New Registration",
+	 "TAMIL NADU",
+	 "CUDDALORE",
+	 "25 May 2023",
+	 "Download"
+	],
+	[
+	 10,
+	 "Janta Raja Multi State Coopertive Credit Society Ltd.,",
+	 "Amendments",
+	 "MAHARASHTRA",
+	 "AHMEDNAGAR",
+	 "24 May 2023",
+	 "Download"
+	],
+	[
+	 11,
+	 "Fingrowth Cooperative Bank Ltd",
+	 "Amendments",
+	 "RAJASTHAN",
+	 "JAIPUR",
+	 "22 May 2023",
+	 "Download"
+	],
+	[
+	 12,
+	 "Fabtech Multi State Cooperative Credit society Ltd",
+	 "Amendments",
+	 "MAHARASHTRA",
+	 "SOLAPUR",
+	 "02 May 2023",
+	 "Download"
+	],
+	[
+	 13,
+	 "Bharathi Thenali Fisherman Cooperative Society Ltd.",
+	 "New Registration",
+	 "TELANGANA",
+	 "MANCHERIAL",
+	 "02 May 2023",
+	 "Download"
+	],
+	[
+	 14,
+	 "Central Warehousing Corporation Employees Coop. Thrift & Credit Society Ltd.,",
+	 "Re-consideration for Amendment",
+	 "TAMIL NADU",
+	 "CHENNAI",
+	 "02 May 2023",
+	 "Download"
+	],
+	[
+	 15,
+	 "The Simpson & Group Companies Employee''s Coop. Society Ltd.",
+	 "Amendments",
+	 "TAMIL NADU",
+	 "CHENNAI",
+	 "01 May 2023",
+	 "Download"
+	],
+	[
+	 16,
+	 "State Bank of India Staff Co-operative Society Limited",
+	 "Amendments",
+	 "TAMIL NADU",
+	 "CHENNAI",
+	 "01 May 2023",
+	 "Download"
+	],
+	[
+	 17,
+	 "The Loni Urban Multi state Credit and Thrift Coopertive Society ltd.,",
+	 "Amendments",
+	 "UTTAR PRADESH",
+	 "GHAZIABAD",
+	 "29 Apr 2023",
+	 "Download"
+	],
+	[
+	 18,
+	 "Shivpratap nagari Cooperative Credit Society Ltd.,",
+	 "Amendments",
+	 "MAHARASHTRA",
+	 "SANGLI",
+	 "26 Apr 2023",
+	 "Download"
+	],
+	[
+	 19,
+	 "The Central Arecanut and Cocoa Marketing & Processing Co-operative Limited (CAMPCO)",
+	 "Re-consideration for Amendment",
+	 "KARNATAKA",
+	 "DAKSHIN KANNAD",
+	 "26 Apr 2023",
+	 "Download"
+	],
+	[
+	 20,
+	 "Citizens Cooperative Bank Ltd",
+	 "Amendments",
+	 "GUJARAT",
+	 "RAJKOT",
+	 "20 Apr 2023",
+	 "Download"
+	],
+	[
+	 21,
+	 "The Railway Sharmik Sahakari Bank Ltd.",
+	 "Amendments",
+	 "RAJASTHAN",
+	 "BIKANER",
+	 "11 Apr 2023",
+	 "Download"
+	],
+	[
+	 22,
+	 "Syndicate Bank Officers Cooperative Thrift & Credit Society Ltd",
+	 "Amendments",
+	 "TAMIL NADU",
+	 "CHENNAI",
+	 "11 Apr 2023",
+	 "Download"
+	],
+	[
+	 23,
+	 "Pyramid Agro multi state cooperative society ltd.",
+	 "New Registration",
+	 "MAHARASHTRA",
+	 "AHMEDNAGAR",
+	 "05 Apr 2023",
+	 "Download"
+	],
+	[
+	 24,
+	 "Devrahi Farmer Multi State Cooperative Society ltd.",
+	 "Re-Submission of New Registration",
+	 "UTTAR PRADESH",
+	 "DEORIA",
+	 "31 Mar 2023",
+	 "Download"
+	],
+	[
+	 25,
+	 "Mahesh Nagari Multi State Cooperative Credit Society Ltd.",
+	 "Amendments",
+	 "MAHARASHTRA",
+	 "PUNE",
+	 "31 Mar 2023",
+	 "Download"
+	],
+	[
+	 26,
+	 "CITIZENCREDIT Cooperative Bank Ltd.,",
+	 "Amendments",
+	 "MAHARASHTRA",
+	 "MUMBAI",
+	 "31 Mar 2023",
+	 "Download"
+	],
+	[
+	 27,
+	 "The Varachha Coop. Bank Ltd.",
+	 "Conversion",
+	 "GUJARAT",
+	 "SURAT",
+	 "27 Mar 2023",
+	 "Download"
+	],
+	[
+	 28,
+	 "Annapurna Mahila Cooperative Credit Society Ltd.,",
+	 "Amendments",
+	 "MAHARASHTRA",
+	 "PUNE",
+	 "23 Mar 2023",
+	 "Download"
+	],
+	[
+	 29,
+	 "Trimurti Multi State Urban Cooperative Credit Society Ltd.,",
+	 "Amendments",
+	 "MAHARASHTRA",
+	 "AHMEDNAGAR",
+	 "20 Mar 2023",
+	 "Download"
+	],
+	[
+	 30,
+	 "Krishi sansaar multi state cooperative society ltd.",
+	 "New Registration",
+	 "NEW DELHI",
+	 "NEW DELHI",
+	 "14 Mar 2023",
+	 "Download"
+	],
+	[
+	 31,
+	 "A.P. Mahesh Cooperative  Urban Bank Ltd.",
+	 "Amendments",
+	 "ANDHRA PRADESH",
+	 "HYDERABAD",
+	 "13 Mar 2023",
+	 "Download"
+	],
+	[
+	 32,
+	 "Shree Siddheshwar Sahakari Sakhar Karkhana Ltd",
+	 "Amendments",
+	 "MAHARASHTRA",
+	 "SOLAPUR",
+	 "06 Feb 2023",
+	 "Download"
+	],
+	[
+	 33,
+	 "Bhartiya Beej Sahakari Samiti Ltd.",
+	 "New Registration",
+	 "NEW DELHI",
+	 "NEW DELHI",
+	 "25 Jan 2023",
+	 "Download"
+	],
+	[
+	 34,
+	 "National Cooperative Organics Ltd.",
+	 "New Registration",
+	 "GUJARAT",
+	 "ANAND",
+	 "25 Jan 2023",
+	 "Download"
+	],
+	[
+	 35,
+	 "Sakhi Multi State Cooperative Credit Society Ltd.,",
+	 "Amendments",
+	 "MAHARASHTRA",
+	 "SOLAPUR",
+	 "25 Jan 2023",
+	 "Download"
+	],
+	[
+	 36,
+	 "Shikshan Maharashi Dnyandev Mohekar Multi State Cooperative Credit Society Ltd.,",
+	 "Amendments",
+	 "MAHARASHTRA",
+	 "OSMANABAD",
+	 "25 Jan 2023",
+	 "Download"
+	],
+	[
+	 37,
+	 "National Cooperative Exports Ltd.",
+	 "New Registration",
+	 "NEW DELHI",
+	 "NEW DELHI",
+	 "25 Jan 2023",
+	 "Download"
+	],
+	[
+	 38,
+	 "Agrovision Farmer Multi State Cooperative Society Ltd.",
+	 "New Registration",
+	 "UTTAR PRADESH",
+	 "DEORIA",
+	 "25 Jan 2023",
+	 "Download"
+	],
+	[
+	 39,
+	 "Haldhar Agro Multistate Cooperative Ltd.",
+	 "New Registration",
+	 "HARYANA",
+	 "BHIWANI",
+	 "17 Jan 2023",
+	 "Download"
+	],
+	[
+	 40,
+	 "Kanyakumari Multi State Agriculture Producers Cooperative Society Ltd",
+	 "New Registration",
+	 "TAMIL NADU",
+	 "CHENNAI",
+	 "07 Jan 2023",
+	 "Download"
+	],
+	[
+	 41,
+	 "Lokraja Multi state cooperative agro ltd.",
+	 "New Registration",
+	 "MAHARASHTRA",
+	 "SANGLI",
+	 "03 Jan 2023",
+	 "Download"
+	],
+	[
+	 42,
+	 "Krishi Jagat Multi State Cooperative Society Ltd.",
+	 "New Registration",
+	 "JHARKHAND",
+	 "DEOGHAR",
+	 "23 Dec 2022",
+	 "Download"
+	],
+	[
+	 43,
+	 "Urban Cooperative Bank Ltd.",
+	 "Conversion",
+	 "UTTAR PRADESH",
+	 "BAREILLY",
+	 "21 Dec 2022",
+	 "Download"
+	],
+	[
+	 44,
+	 "New Satara Zilha Nagarik Sahakari Patsanstha Maryadit",
+	 "Conversion",
+	 "MAHARASHTRA",
+	 "MUMBAI",
+	 "13 Dec 2022",
+	 "Download"
+	],
+	[
+	 45,
+	 "Shree Durga Farmers Multi State Cooperative Society Ltd.",
+	 "New Registration",
+	 "UTTAR PRADESH",
+	 "MAHARAJGANJ",
+	 "10 Dec 2022",
+	 "Download"
+	],
+	[
+	 46,
+	 "Virangana Krishak Utpadan Vipdan Sahakari Samiti ltd.",
+	 "New Registration",
+	 "UTTAR PRADESH",
+	 "JHANSI",
+	 "30 Nov 2022",
+	 "Download"
+	],
+	[
+	 47,
+	 "MCK multi state agro cooperative society ltd.",
+	 "New Registration",
+	 "KERALA",
+	 "THRISSUR",
+	 "30 Nov 2022",
+	 "Download"
+	],
+	[
+	 48,
+	 "Oleevia Multi state Agro Cooperative Society ltd.",
+	 "New Registration",
+	 "KERALA",
+	 "THRISSUR",
+	 "14 Nov 2022",
+	 "Download"
+	],
+	[
+	 49,
+	 "Kalyani multi state agro cooperative society ltd.",
+	 "New Registration",
+	 "UTTAR PRADESH",
+	 "GHAZIPUR",
+	 "14 Nov 2022",
+	 "Download"
+	],
+	[
+	 50,
+	 "Federation of Health and Sports Cooperative Ltd.",
+	 "New Registration",
+	 "HARYANA",
+	 "FARIDABAD",
+	 "08 Nov 2022",
+	 "Download"
+	]
+]
+
+export const amendmentCerti = [
+	[
+	 1,
+	 "The Dharampeth Mahila Multi State Cooperative SocietyLtd",
+	 "MAHARASHTRA",
+	 "NAGPUR",
+	 "25 Apr 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 2,
+	 "Kumar Multi State Coop. Credit Society Ltd.,",
+	 "MAHARASHTRA",
+	 "OSMANABAD",
+	 "17 Apr 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 3,
+	 "Kokan Mercantile Cooperative Bank Ltd,",
+	 "MAHARASHTRA",
+	 "MUMBAI",
+	 "02 Mar 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 4,
+	 "The Jalgaon People�s Cooperative Bank Ltd.,",
+	 "MAHARASHTRA",
+	 "JALGAON",
+	 "02 Mar 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 5,
+	 "Vanashri NanasahebMahadik MultiState Urban Cooperative Credit Society Ltd.,",
+	 "MAHARASHTRA",
+	 "SANGLI",
+	 "27 Feb 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 6,
+	 "Walwa Cooperative Milk and Milk Products Ltd.,",
+	 "MAHARASHTRA",
+	 "SANGLI",
+	 "24 Feb 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 7,
+	 "Hindustan Petroleum Corporation Employees Co-operative Society Ltd.",
+	 "TAMIL NADU",
+	 "CHENNAI",
+	 "24 Feb 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 8,
+	 "Fortune Multi State Credit Cooperative Society Ltd.,",
+	 "RAJASTHAN",
+	 "SIROHI",
+	 "24 Feb 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 9,
+	 "Agriculture Regenration Multi State Cooperative Society Ltd",
+	 "UTTAR PRADESH",
+	 "KANPUR NAGAR",
+	 "23 Feb 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 10,
+	 "Mahesh Multi State Cooperative Credit Society Ltd.",
+	 "MAHARASHTRA",
+	 "PUNE",
+	 "23 Feb 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 11,
+	 "Jivan Multi state Multi purpose Coopertive Society Ltd.,",
+	 "MAHARASHTRA",
+	 "AHMEDNAGAR",
+	 "23 Feb 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 12,
+	 "Bharatam information Techonology Cooperative ltd.",
+	 "HARYANA",
+	 "FARIDABAD",
+	 "22 Feb 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 13,
+	 "Nandkumar Zaware Patil Multi State Cooperative Credit Society Ltd.,",
+	 "MAHARASHTRA",
+	 "AHMEDNAGAR",
+	 "21 Feb 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 14,
+	 "Bhagyalaxmi Multi State Cooperative Credit Society Ltd.,",
+	 "MAHARASHTRA",
+	 "AURANGABAD",
+	 "21 Feb 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 15,
+	 "Orange City Multistate Cooperative Credit Society Ltd.,",
+	 "MAHARASHTRA",
+	 "NAGPUR",
+	 "21 Feb 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 16,
+	 "The NE & EC Railway Employees Primary Cooperative Bank Ltd.",
+	 "UTTAR PRADESH",
+	 "GORAKHPUR",
+	 "21 Feb 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 17,
+	 "Sahayog Multistate Cooperative Credit Society ltd.,",
+	 "MAHARASHTRA",
+	 "MUMBAI",
+	 "21 Feb 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 18,
+	 "Dombivli Nagari Sahakari Bank Ltd",
+	 "MAHARASHTRA",
+	 "MUMBAI",
+	 "21 Feb 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 19,
+	 "State Bank of Hyderabad (SBH) Employees'' Cooperative Credit Society Ltd.,",
+	 "TELANGANA",
+	 "HYDERABAD",
+	 "21 Feb 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 20,
+	 "Krushna Godavari Khate, B1-Biyane Utpadan Va Vikari Sahakari Sanstha Ltd.,",
+	 "MAHARASHTRA",
+	 "SANGLI",
+	 "16 Feb 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 21,
+	 "Vitthal Rao Shinde Sahakari Sahkar Karkhana Ltd",
+	 "MAHARASHTRA",
+	 "SOLAPUR",
+	 "16 Feb 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 22,
+	 "Shree Ravalnath Cooperative Housing Finance Society Ltd.,",
+	 "MAHARASHTRA",
+	 "KOLHAPUR",
+	 "13 Feb 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 23,
+	 "Janseva Cooperative Credit Society Ltd.,",
+	 "MAHARASHTRA",
+	 "MUMBAI",
+	 "07 Feb 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 24,
+	 "Vrudeshwar Urban Multi State Cooperative Credit Society Ltd.,",
+	 "MAHARASHTRA",
+	 "AHMEDNAGAR",
+	 "06 Feb 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 25,
+	 "Shree Siddheshwar Sahakari Sakhar Karkhana Ltd",
+	 "MAHARASHTRA",
+	 "SOLAPUR",
+	 "06 Feb 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 26,
+	 "Mahaganpati Multi state Cooperative Credit Society Ltd.,",
+	 "MAHARASHTRA",
+	 "PUNE",
+	 "04 Feb 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 27,
+	 "The Nasik Merchants Cooperative Bank ltd.,",
+	 "MAHARASHTRA",
+	 "NASIK",
+	 "04 Feb 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 28,
+	 "Indian Oil Employees Welfare Co-perative Society Limited",
+	 "MAHARASHTRA",
+	 "MUMBAI",
+	 "04 Feb 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 29,
+	 "South Central Railway Employee''s Co-operative Credit Society Ltd.",
+	 "ANDHRA PRADESH",
+	 "HYDERABAD",
+	 "28 Jan 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 30,
+	 "Balasaheb Labour Development Cooperative Society ltd.Majalgao",
+	 "MAHARASHTRA",
+	 "BEED",
+	 "25 Jan 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 31,
+	 "Agrovision Farmer Multi State Cooperative Society Ltd.",
+	 "UTTAR PRADESH",
+	 "DEORIA",
+	 "25 Jan 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 32,
+	 "Shivshakti Multi State Cooperative Credit Society Ltd.,",
+	 "MAHARASHTRA",
+	 "SATARA",
+	 "25 Jan 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 33,
+	 "Konkan Rail Cooperative Credit Society Ltd.,",
+	 "MAHARASHTRA",
+	 "MUMBAI",
+	 "25 Jan 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 34,
+	 "Shree Chhatrapati Shahu Sahakari Sakhar Karkhana Ltd.",
+	 "MAHARASHTRA",
+	 "KOLHAPUR",
+	 "25 Jan 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 35,
+	 "The Food Corporation of India (South Region) Employees Coop. Society",
+	 "TAMIL NADU",
+	 "CHENNAI",
+	 "25 Jan 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 36,
+	 "Bharat Cooperative Bank Ltd.,",
+	 "MAHARASHTRA",
+	 "MUMBAI",
+	 "21 Jan 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 37,
+	 "The Jain Sahkari Bank Ltd,",
+	 "MAHARASHTRA",
+	 "MUMBAI",
+	 "19 Jan 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 38,
+	 "Laxmi Multistate Cooperative Credit Society Limited,",
+	 "MAHARASHTRA",
+	 "LATUR",
+	 "19 Jan 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 39,
+	 "Gadavari Multi State Cooperative Credit Society ltd.,",
+	 "MAHARASHTRA",
+	 "BEED",
+	 "19 Jan 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 40,
+	 "Jai Mahesh Multi State Vehicle Services Cooperative Society Ltd",
+	 "MAHARASHTRA",
+	 "PUNE",
+	 "19 Jan 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 41,
+	 "Provident Fund Employees Coop. Society Ltd.",
+	 "TAMIL NADU",
+	 "CHENNAI",
+	 "18 Jan 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 42,
+	 "The Tamil Nadu Accountant Generals Office Staff Coop. Credit Society Ltd.",
+	 "TAMIL NADU",
+	 "CHENNAI",
+	 "17 Jan 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 43,
+	 "Shree Datta Shetkari Sahakari Sakhar Karkhana Ltd.",
+	 "MAHARASHTRA",
+	 "KOLHAPUR",
+	 "17 Jan 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 44,
+	 "The Civil Construction Wing All India Radio & Television and National Film Development Corporation Employees Cooperative Thrift & Credit Society Ltd",
+	 "TAMIL NADU",
+	 "CHENNAI",
+	 "16 Jan 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 45,
+	 "Bramhhnath Multi state Vehicle Services Cooperative Society ltd.",
+	 "MAHARASHTRA",
+	 "JALNA",
+	 "16 Jan 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 46,
+	 "Samruddhi Multi State Cooperative Credit Society Ltd.,",
+	 "MAHARASHTRA",
+	 "PUNE",
+	 "14 Jan 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 47,
+	 "Central Bank National Employees Co-operative Credit Society Ltd.",
+	 "WEST BENGAL",
+	 "KOLKATA",
+	 "13 Jan 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 48,
+	 "Shivajirao patil  multistate multi specailty Hospital and Research Center ltd",
+	 "MAHARASHTRA",
+	 "KOLHAPUR",
+	 "13 Jan 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 49,
+	 "The UCO Bank Employees Coop. Thrift & Credit Society,",
+	 "TAMIL NADU",
+	 "CHENNAI",
+	 "10 Jan 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 50,
+	 "The Indian Medical Practioners Co-op. Pharmacy & Stores Ltd.",
+	 "TAMIL NADU",
+	 "CHENNAI",
+	 "10 Jan 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 51,
+	 "Samata Multi State Cooperative Credit Society Ltd",
+	 "MAHARASHTRA",
+	 "AHMEDNAGAR",
+	 "06 Jan 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 52,
+	 "The Shamrao Vithal Co-operative Bank Ltd. / SVC Cooperative Bank Limited",
+	 "MAHARASHTRA",
+	 "MUMBAI",
+	 "06 Jan 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 53,
+	 "Sadbhav Consumers Multi State Cooperative Society Ltd.,",
+	 "GUJARAT",
+	 "AHMADABAD",
+	 "06 Jan 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 54,
+	 "The People Multi-State Coop. Credit Society Ltd.,",
+	 "MAHARASHTRA",
+	 "OSMANABAD",
+	 "05 Jan 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 55,
+	 "The Central Railway Employees Co-operative Credit Society Ltd.",
+	 "MAHARASHTRA",
+	 "MUMBAI",
+	 "04 Jan 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 56,
+	 "Nilesh Lanke Pratishthan sanchalit  Shri Sharadchandraji Pawar Arogya Mandir multi state specialty hospital and Research center ltd.",
+	 "MAHARASHTRA",
+	 "AHMEDNAGAR",
+	 "04 Jan 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 57,
+	 "National Cooperative Construction and Development Federation of India Ltd.,",
+	 "NEW DELHI",
+	 "NEW DELHI",
+	 "04 Jan 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 58,
+	 "Godavari-Nanded Multistate Urban Cooperative Credit Society Ltd.,",
+	 "MAHARASHTRA",
+	 "NANDED",
+	 "04 Jan 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 59,
+	 "Shri Beereshwar Cooperative Credit Society Ltd.,",
+	 "KARNATAKA",
+	 "BELGAUM",
+	 "04 Jan 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 60,
+	 "Solapur Janata Sahakari Bank Ltd.,",
+	 "MAHARASHTRA",
+	 "SOLAPUR",
+	 "04 Jan 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 61,
+	 "The Hindu Office and National Press Employee\"s Cooperative Thrift & Credit Society Ltd,",
+	 "TAMIL NADU",
+	 "CHENNAI",
+	 "03 Jan 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 62,
+	 "The Eastern Railway Employees Cooperative Bank Limited (Eastern & North East Frontier Railway Employees Co-operative Bank Ltd.)",
+	 "WEST BENGAL",
+	 "KOLKATA",
+	 "03 Jan 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 63,
+	 "Kisanmitra Multi State Coop. Credit Society Ltd.,",
+	 "MAHARASHTRA",
+	 "LATUR",
+	 "03 Jan 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 64,
+	 "The Income Tax Department Cooperative Society Ltd.",
+	 "TAMIL NADU",
+	 "CHENNAI",
+	 "03 Jan 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 65,
+	 "New India Cooperative Bank Ltd.,",
+	 "MAHARASHTRA",
+	 "MUMBAI",
+	 "03 Jan 2023",
+	 "Download",
+	 ""
+	],
+	[
+	 66,
+	 "Shree Sarneshwar Credit Cooperative Society Ltd.,",
+	 "RAJASTHAN",
+	 "SIROHI",
+	 "27 Dec 2022",
+	 "Download",
+	 ""
+	],
+	[
+	 67,
+	 "Navbharat Cooperative Agro Processing Society Ltd.,",
+	 "MAHARASHTRA",
+	 "KOLHAPUR",
+	 "27 Dec 2022",
+	 "Download",
+	 ""
+	],
+	[
+	 68,
+	 "The Akola Urban Cooperative Bank Ltd.,",
+	 "MAHARASHTRA",
+	 "AKOLA",
+	 "27 Dec 2022",
+	 "Download",
+	 ""
+	],
+	[
+	 69,
+	 "Aravali Agro Multi State Cooperative Society Ltd,",
+	 "RAJASTHAN",
+	 "BHARATPUR",
+	 "26 Dec 2022",
+	 "Download",
+	 ""
+	],
+	[
+	 70,
+	 "Sahayog Multi State Credit Cooperative Society Ltd.",
+	 "MAHARASHTRA",
+	 "GONDIA",
+	 "26 Dec 2022",
+	 "Download",
+	 ""
+	],
+	[
+	 71,
+	 "Nirmal Ujjwal Credit Cooperative Society Ltd.,",
+	 "MAHARASHTRA",
+	 "NANDED",
+	 "26 Dec 2022",
+	 "Download",
+	 ""
+	],
+	[
+	 72,
+	 "Nutan Nagarik Sahakari Bank Ltd.,",
+	 "GUJARAT",
+	 "AHMADABAD",
+	 "22 Dec 2022",
+	 "Download",
+	 ""
+	],
+	[
+	 73,
+	 "Dryararadha Multi State Cooperative Credit Society Ltd.,",
+	 "MAHARASHTRA",
+	 "BEED",
+	 "22 Dec 2022",
+	 "Download",
+	 ""
+	],
+	[
+	 74,
+	 "South India Multi State Agriculture Cooperative society Ltd.,",
+	 "TAMIL NADU",
+	 "VELLORE",
+	 "21 Dec 2022",
+	 "Download",
+	 ""
+	],
+	[
+	 75,
+	 "Karur Vysya Bank Staff Coop Thrift & credit Society Ltd",
+	 "TAMIL NADU",
+	 "CHENNAI",
+	 "21 Dec 2022",
+	 "Download",
+	 ""
+	],
+	[
+	 76,
+	 "The Sutex Cooperative Bank Ltd",
+	 "GUJARAT",
+	 "SURAT",
+	 "15 Dec 2022",
+	 "Download",
+	 ""
+	],
+	[
+	 77,
+	 "The New India Assurance Employees Co-operative Thrift & Credit Society Ltd.",
+	 "TAMIL NADU",
+	 "CHENNAI",
+	 "15 Dec 2022",
+	 "Download",
+	 ""
+	],
+	[
+	 78,
+	 "The Vishweshwar Sahakari Bank Ltd.,",
+	 "MAHARASHTRA",
+	 "PUNE",
+	 "14 Dec 2022",
+	 "Download",
+	 ""
+	],
+	[
+	 79,
+	 "Malankara Multi-State Cooperative Credit Society Ltd.,",
+	 "KERALA",
+	 "THRISSUR",
+	 "14 Dec 2022",
+	 "Download",
+	 ""
+	],
+	[
+	 80,
+	 "The Jackson Co-operative Credit Society of the Employees of the Western Railway Ltd.",
+	 "MAHARASHTRA",
+	 "MUMBAI",
+	 "13 Dec 2022",
+	 "Download",
+	 ""
+	],
+	[
+	 81,
+	 "Indian Overseas Bank Staff Co-operative Credit Society Ltd",
+	 "TAMIL NADU",
+	 "CHENNAI",
+	 "13 Dec 2022",
+	 "Download",
+	 ""
+	],
+	[
+	 82,
+	 "Parijat agro multi state Cooperative society ltd.",
+	 "UTTAR PRADESH",
+	 "DEORIA",
+	 "10 Dec 2022",
+	 "Download",
+	 ""
+	],
+	[
+	 83,
+	 "Union Bank of India Officers Cooperative Thrift and Credit Society Ltd",
+	 "TAMIL NADU",
+	 "CHENNAI",
+	 "08 Dec 2022",
+	 "Download",
+	 ""
+	],
+	[
+	 84,
+	 "Janata Sahakari Bank Ltd.,",
+	 "MAHARASHTRA",
+	 "PUNE",
+	 "03 Dec 2022",
+	 "Download",
+	 ""
+	],
+	[
+	 85,
+	 "Bombay Mercantile Co-operative Bank Ltd",
+	 "MAHARASHTRA",
+	 "MUMBAI",
+	 "03 Dec 2022",
+	 "Download",
+	 ""
+	],
+	[
+	 86,
+	 "The Gayatri Cooperative Urban Bank Ltd",
+	 "TELANGANA",
+	 "JAGITIAL",
+	 "22 Nov 2022",
+	 "Download",
+	 ""
+	],
+	[
+	 87,
+	 "The Mehsana Urban Co-operative Bank Ltd",
+	 "GUJARAT",
+	 "MAHESANA",
+	 "21 Nov 2022",
+	 "Download",
+	 ""
+	],
+	[
+	 88,
+	 "The Surat People�s Cooperative Bank Ltd",
+	 "GUJARAT",
+	 "SURAT",
+	 "21 Nov 2022",
+	 "Download",
+	 ""
+	],
+	[
+	 89,
+	 "The Surat People�s Cooperative Bank Ltd",
+	 "GUJARAT",
+	 "SURAT",
+	 "21 Nov 2022",
+	 "Download",
+	 ""
+	],
+	[
+	 90,
+	 "General Insurance Corporation Employees Co-operative Thrift & Credit Society Ltd.",
+	 "TAMIL NADU",
+	 "CHENNAI",
+	 "21 Nov 2022",
+	 "Download",
+	 ""
+	],
+	[
+	 91,
+	 "Breath-Easy Multi Specialty Cooperative Hospital and Research Center Ltd.",
+	 "MAHARASHTRA",
+	 "SANGLI",
+	 "17 Nov 2022",
+	 "Download",
+	 ""
+	],
+	[
+	 92,
+	 "Keshar multi specialty cooperative hospital and research center ltd.",
+	 "MAHARASHTRA",
+	 "AHMEDNAGAR",
+	 "17 Nov 2022",
+	 "Download",
+	 ""
+	],
+	[
+	 93,
+	 "Vishwavinak multi state multi specialty hospital and research center ltd.",
+	 "MAHARASHTRA",
+	 "AHMEDNAGAR",
+	 "17 Nov 2022",
+	 "Download",
+	 ""
+	],
+	[
+	 94,
+	 "Prabhavana Multi State Womens� Jute and Allied Fibre Products Cooperative Society Ltd",
+	 "TELANGANA",
+	 "HYDERABAD",
+	 "14 Nov 2022",
+	 "Download",
+	 ""
+	],
+	[
+	 95,
+	 "Aditya Anagha Multi State Credit Cooperativwe Society Ltd.,",
+	 "MAHARASHTRA",
+	 "NAGPUR",
+	 "14 Nov 2022",
+	 "Download",
+	 ""
+	],
+	[
+	 96,
+	 "Utsav Vikas Agro Multi State Cooperative Society Ltd",
+	 "UTTAR PRADESH",
+	 "JHANSI",
+	 "09 Nov 2022",
+	 "Download",
+	 ""
+	],
+	[
+	 97,
+	 "Utsav Vikas Agro Multi State Cooperative Society ltd.",
+	 "UTTAR PRADESH",
+	 "JHANSI",
+	 "09 Nov 2022",
+	 "Download",
+	 ""
+	],
+	[
+	 98,
+	 "Thane Janata Sahakari Bank Ltd., (TJSB)",
+	 "MAHARASHTRA",
+	 "THANE",
+	 "28 Oct 2022",
+	 "Download",
+	 ""
+	],
+	[
+	 99,
+	 "The Ahmedabad Mercantile Co-op. Bank Ltd.",
+	 "GUJARAT",
+	 "AHMADABAD",
+	 "25 Oct 2022",
+	 "Download",
+	 ""
+	],
+	[
+	 100,
+	 "The Evergreen Farmers Development Multi State Cooperative Society Ltd,",
+	 "PUNJAB",
+	 "S.A.S NAGAR (MOHALI)",
+	 "21 Oct 2022",
+	 "Download",
+	 ""
+	]
+]
+
+export const noticies = [
+	[
+		1,
+		"Shree Ninaidevi Multi Specialty Cooperative Hospital and Research Center Ltd.",
+		"MAHARASHTRA",
+		"MUMBAI",
+		"13-Jun-23",
+		"Download"
+	 ],
+	 [
+		2,
+		"Tamil Nadu Multi State Societies Cooperative Housing Federation Ltd.",
+		"TAMIL NADU",
+		"CHENNAI",
+		"09-Jun-23",
+		"Download"
+	 ],
+	 [
+		3,
+		"Global Federation of Natural Farming Cooperative Ltd.",
+		"UTTAR PRADESH",
+		"DEORIA",
+		"09-Jun-23",
+		"Download"
+	 ],
+	 [
+		4,
+		"Shantishwar Multi State cooperative Credit society ltd.",
+		"MAHARASHTRA",
+		"AURANGABAD",
+		"31-May-23",
+		"Download"
+	 ],
+	 [
+		5,
+		"Vikas multi state Agro Coop. Society ltd.",
+		"KERALA",
+		"PALAKKAD",
+		"31-May-23",
+		"Download"
+	 ],
+	 [
+		6,
+		"Krishi Bazaar Multitstate Cooperative Society Ltd.",
+		"NEW DELHI",
+		"NEW DELHI",
+		"26-May-23",
+		"Download"
+	 ],
+	 [
+		7,
+		"Vaiga multi State Credit Cooperative Society Ltd.",
+		"KERALA",
+		"ERNAKULAM",
+		"03-May-23",
+		"Download"
+	 ],
+	 [
+		8,
+		"The Unati Multi Purpose Multi State Cooperative Society Ltd.",
+		"PUNJAB",
+		"HOSHIARPUR",
+		"03-May-23",
+		"Download"
+	 ],
+	 [
+		9,
+		"Anjanai Urban Multi state Cooperative Credit Society Ltd.",
+		"MAHARASHTRA",
+		"NANDED",
+		"03-May-23",
+		"Download"
+	 ],
+	 [
+		10,
+		"Maxvalue Agro Multi State Cooperative Society Ltd.",
+		"KERALA",
+		"THRISSUR",
+		"03-May-23",
+		"Download"
+	 ],
+	 [
+		11,
+		"Mata Ramabai Ambedkar Multi State Cooperative Society Ltd.",
+		"NEW DELHI",
+		"NEW DELHI",
+		"03-May-23",
+		"Download"
+	 ],
+	 [
+		12,
+		"South Alliance Multi State Housing and Construction Cooperative Society Ltd.",
+		"KERALA",
+		"KOZHIKODE",
+		"02-May-23",
+		"Download"
+	 ],
+	 [
+		13,
+		"Ratnasundar Multi State Vehicle Services Coop. Society Ltd.",
+		"MAHARASHTRA",
+		"BEED",
+		"02-May-23",
+		"Download"
+	 ],
+	 [
+		14,
+		"Shree Venkateshwara Multi State Cooperative Credit Society Ltd.",
+		"MAHARASHTRA",
+		"PUNE",
+		"28-Apr-23",
+		"Download"
+	 ],
+	 [
+		15,
+		"Shree Balaji Multi State Cooperative Credit Society Ltd.",
+		"MAHARASHTRA",
+		"PUNE",
+		"28-Apr-23",
+		"Download"
+	 ],
+	 [
+		16,
+		"Agriculture Development Marketing Cooperative Society Ltd.",
+		"UTTAR PRADESH",
+		"MEERUT",
+		"25-Apr-23",
+		"Download"
+	 ],
+	 [
+		17,
+		"Technopark multi state cooperative hospital society ltd.",
+		"KERALA",
+		"THIRUVANANTHAPURAM",
+		"25-Apr-23",
+		"Download"
+	 ],
+	 [
+		18,
+		"United Federation of Export Marketing Cooperative ltd.",
+		"ANDHRA PRADESH",
+		"KRISHNA",
+		"18-Apr-23",
+		"Download"
+	 ],
+	 [
+		19,
+		"The Akash Agro Green Care multistate Agricultural Cooperative Society ltd.",
+		"TAMIL NADU",
+		"TIRUCHIRAPPALLI",
+		"18-Apr-23",
+		"Download"
+	 ],
+	 [
+		20,
+		"Rajveer Multistate Vehicle Services Cooperative Society ltd.",
+		"MAHARASHTRA",
+		"BEED",
+		"11-Apr-23",
+		"Download"
+	 ],
+	 [
+		21,
+		"CT Multi State Cooperative Credit Society Ltd.",
+		"MAHARASHTRA",
+		"NANDED",
+		"11-Apr-23",
+		"Download"
+	 ],
+	 [
+		22,
+		"Suraj Group multistate cooperative society ltd.",
+		"MAHARASHTRA",
+		"NANDED",
+		"11-Apr-23",
+		"Download"
+	 ],
+	 [
+		23,
+		"Pyramid Agro multi state cooperative society ltd.",
+		"MAHARASHTRA",
+		"AHMEDNAGAR",
+		"05-Apr-23",
+		"Download"
+	 ],
+	 [
+		24,
+		"Bharathi Thenali Fisherman Cooperative Society Ltd.",
+		"TELANGANA",
+		"MANCHERIAL",
+		"28-Mar-23",
+		"Download"
+	 ],
+	 [
+		25,
+		"Lakshyavedh multi state cooperative credit society ltd.",
+		"MAHARASHTRA",
+		"AHMEDNAGAR",
+		"17-Mar-23",
+		"Download"
+	 ],
+	 [
+		26,
+		"The Rajnandini Urban Multi State Coopearative Credit Society Ltd.",
+		"MAHARASHTRA",
+		"NANDED",
+		"17-Mar-23",
+		"Download"
+	 ],
+	 [
+		27,
+		"Apollo life multistate multi purpose cooperative Society ltd.",
+		"MAHARASHTRA",
+		"CHANDRAPUR",
+		"17-Mar-23",
+		"Download"
+	 ],
+	 [
+		28,
+		"Lakshyavedh multi specialty  cooperative Hospital and Research Center Ltd. society ltd.",
+		"MAHARASHTRA",
+		"AHMEDNAGAR",
+		"17-Mar-23",
+		"Download"
+	 ],
+	 [
+		29,
+		"Saiprerana Multi State Cooperative Agro purpose Society ltd. Rahuri",
+		"MAHARASHTRA",
+		"AHMEDNAGAR",
+		"09-Mar-23",
+		"Download"
+	 ],
+	 [
+		30,
+		"Sarvam multi state cooperative Housing Society ltd.",
+		"TAMIL NADU",
+		"CHENNAI",
+		"09-Mar-23",
+		"Download"
+	 ],
+	 [
+		31,
+		"Oriental Agro Multi State Cooperative Society limited",
+		"TAMIL NADU",
+		"COIMBATORE",
+		"09-Mar-23",
+		"Download"
+	 ],
+	 [
+		32,
+		"Jeeva Shakthi Housing Multi State Coop.Society Ltd.",
+		"TAMIL NADU",
+		"CUDDALORE",
+		"27-Feb-23",
+		"Download"
+	 ],
+	 [
+		33,
+		"Dhyaneshwari Multi state Vehicle Services Coop. Society ltd.",
+		"MAHARASHTRA",
+		"PARBHANI",
+		"17-Feb-23",
+		"Download"
+	 ],
+	 [
+		34,
+		"The R. M. S. Co-operative Credit Society Ltd.",
+		"MAHARASHTRA",
+		"NAGPUR",
+		"25-Jan-23",
+		"Download"
+	 ],
+	 [
+		35,
+		"Bharathitampon Fishermen Cooperative Ltd.",
+		"PONDICHERRY",
+		"PONDICHERRY",
+		"20-Jan-23",
+		"Download"
+	 ],
+	 [
+		36,
+		"Krishi sansaar multi state cooperative society ltd.",
+		"NEW DELHI",
+		"NEW DELHI",
+		"17-Jan-23",
+		"Download"
+	 ],
+	 [
+		37,
+		"Haldhar Agro Multistate Cooperative Ltd.",
+		"HARYANA",
+		"BHIWANI",
+		"12-Jan-23",
+		"Download"
+	 ],
+	 [
+		38,
+		"Bharatam information Techonology Cooperative ltd.",
+		"HARYANA",
+		"FARIDABAD",
+		"10-Jan-23",
+		"Download"
+	 ],
+	 [
+		39,
+		"Rural & Agriculture Farmer''s Multi State Cooperative Society Ltd.",
+		"TAMIL NADU",
+		"CHENNAI",
+		"10-Jan-23",
+		"Download"
+	 ],
+	 [
+		40,
+		"Rupamata Multispeciality Cooperative Hospital and Research Center ltd.",
+		"MAHARASHTRA",
+		"OSMANABAD",
+		"04-Jan-23",
+		"Download"
+	 ],
+	 [
+		41,
+		"Balasaheb Labour Development Cooperative Society ltd.Majalgao",
+		"MAHARASHTRA",
+		"BEED",
+		"21-Dec-22",
+		"Download"
+	 ],
+	 [
+		42,
+		"Krishi Jagat Multi State Cooperative Society Ltd.",
+		"JHARKHAND",
+		"DEOGHAR",
+		"21-Dec-22",
+		"Download"
+	 ],
+	 [
+		43,
+		"Devrahi Farmer Multi State Cooperative Society ltd.",
+		"UTTAR PRADESH",
+		"DEORIA",
+		"21-Dec-22",
+		"Download"
+	 ],
+	 [
+		44,
+		"Gagangiri Cooperative Dairy Ltd.",
+		"MAHARASHTRA",
+		"AHMEDNAGAR",
+		"21-Dec-22",
+		"Download"
+	 ],
+	 [
+		45,
+		"Bharathimachuware Shahaya Cooperative Ltd. \"BHARATHIMASCOLTD",
+		"GUJARAT",
+		"VALSAD",
+		"13-Dec-22",
+		"Download"
+	 ],
+	 [
+		46,
+		"Bramhhnath Multi state Vehicle Services Cooperative Society ltd.",
+		"MAHARASHTRA",
+		"JALNA",
+		"02-Dec-22",
+		"Download"
+	 ],
+	 [
+		47,
+		"Parijat agro multi state Cooperative society ltd.",
+		"UTTAR PRADESH",
+		"DEORIA",
+		"25-Nov-22",
+		"Download"
+	 ],
+	 [
+		48,
+		"Shree Durga Farmers Multi State Cooperative Society Ltd.",
+		"UTTAR PRADESH",
+		"MAHARAJGANJ",
+		"25-Nov-22",
+		"Download"
+	 ],
+	 [
+		49,
+		"Travancore Cooperative Society ltd",
+		"KERALA",
+		"KOLLAM",
+		"23-Nov-22",
+		"Download"
+	 ],
+	 [
+		50,
+		"MCK multi state agro cooperative society ltd.",
+		"KERALA",
+		"THRISSUR",
+		"23-Nov-22",
+		"Download"
+	 ]
+ ]
+  
+export const rejectionOrder = [
+	[1,"Tamil Nadu Multi State Societies Cooperative Housing Federation Ltd.","TAMIL NADU","CHENNAI","13 Jun 2023","Download"],
+	[2,"Global Federation of Natural Farming Cooperative Ltd.","UTTAR PRADESH","DEORIA","13 Jun 2023","Download"],
+	[3,"The Maratha Gold and Silver Refiners Multi State Cooperative Credit Society Ltd.","ANDHRA PRADESH","HYDERABAD","13 Jun 2023","Download"],
+	[4,"The Maratha Gold and Silver Refiners Multi State Cooperative Credit Society Ltd.","ANDHRA PRADESH","HYDERABAD","13 Jun 2023","Download"],
+	[5,"Bharath Agro Processing and marketing Co-operative Ltd.","NEW DELHI","NEW DELHI","12 Jun 2023","Download"],
+	[6,"Shantishwar Multi State cooperative Credit society ltd.","MAHARASHTRA","AURANGABAD","06 Jun 2023","Download"],
+	[7,"Sahayog Multi State Credit Cooperative Society Ltd.","MAHARASHTRA","GONDIA","25 May 2023","Download"],
+	[8,"Indian Cooperative Credit Society Ltd.","KARNATAKA","BANGALORE","02 May 2023","Download"],
+	[9,"Civil Aviation Department Employees Co-operative Credit Society (Kolkata) Ltd.","WEST BENGAL","KOLKATA","20 Apr 2023","Download"],
+	[10,"United Federation of Export Marketing Cooperative ltd.","ANDHRA PRADESH","KRISHNA","19 Apr 2023","Download"],
+	[11,"Durva Multi State Dairy &  Agro Cooperative Society Ltd.,","MAHARASHTRA","AHMEDNAGAR","13 Apr 2023","Download"],
+	[12,"Kai Bhimrao Jyoti Chavan Multi State Coop. Credit Society Ltd.,","MAHARASHTRA","KOLHAPUR","13 Apr 2023","Download"],
+	[13,"Suraj Group multistate cooperative society ltd.","MAHARASHTRA","NANDED","11 Apr 2023","Download"],
+	[14,"CT Multi State Cooperative Credit Society Ltd.","MAHARASHTRA","NANDED","11 Apr 2023","Download"],
+	[15,"Rajveer Multistate Vehicle Services Cooperative Society ltd.","MAHARASHTRA","BEED","11 Apr 2023","Download"],
+	[16,"Federation of Credit Cooperative Societies, Associations & FederationLtd.","NEW DELHI","NEW DELHI","28 Mar 2023","Download"],
+	[17,"Krushi Ane Gram Vikas Rajya Coop. Society Ltd.","GUJARAT","GANDHINAGAR","28 Mar 2023","Download"],
+	[18,"Apollo life multistate multi purpose cooperative Society ltd.","MAHARASHTRA","CHANDRAPUR","17 Mar 2023","Download"],
+	[19,"Lakshyavedh multi specialty  cooperative Hospital and Research Center Ltd. society ltd.","MAHARASHTRA","AHMEDNAGAR","17 Mar 2023","Download"],
+	[20,"The Rajnandini Urban Multi State Coopearative Credit Society Ltd.","MAHARASHTRA","NANDED","17 Mar 2023","Download"],
+	[21,"Lakshyavedh multi state cooperative credit society ltd.","MAHARASHTRA","AHMEDNAGAR","17 Mar 2023","Download"],
+	[22,"Saiprerana Multi State Cooperative Agro purpose Society ltd. Rahuri","MAHARASHTRA","AHMEDNAGAR","10 Mar 2023","Download"],
+	[23,"Sarvam multi state cooperative Housing Society ltd.","TAMIL NADU","CHENNAI","10 Mar 2023","Download"],
+	[24,"Oriental Agro Multi State Cooperative Society limited","TAMIL NADU","COIMBATORE","10 Mar 2023","Download"],
+	[25,"The Postal & R.M.S. Employees Co-op. Bank Ltd","HARYANA","AMBALA","03 Mar 2023","Download"],
+	[26,"Lok Manya Multi Purpose Cooperative Society Ltd.","KARNATAKA","BELGAUM","02 Mar 2023","Download"],
+	[27,"Rose Multistate Multipurpose Cooperative Society Ltd.","NEW DELHI","NEW DELHI","27 Feb 2023","Download"],
+	[28,"Jeeva Shakthi Housing Multi State Coop.Society Ltd.","TAMIL NADU","CUDDALORE","27 Feb 2023","Download"],
+	[29,"Prabhat Multi State Cooperative Credit Soicety Ltd.,","MAHARASHTRA","LATUR","27 Feb 2023","Download"],
+	[30,"Adarsh Cooperative Bank Ltds./Madhav nagrik Sahakari Bank Ltd.,","RAJASTHAN","SIROHI","21 Feb 2023","Download"],
+	[31,"Dhyaneshwari Multi state Vehicle Services Coop. Society ltd.","MAHARASHTRA","PARBHANI","17 Feb 2023","Download"],
+	[32,"Multi State Agri-Horticultural Developement Cooperative Society Ltd.","KERALA","KOTTAYAM","16 Feb 2023","Download"],
+	[33,"Travancore Cooperative Society ltd","KERALA","KOLLAM","16 Feb 2023","Download"],
+	[34,"The P. & T Employees Central Co-operative Society Ltd., Nagpur","MAHARASHTRA","NAGPUR","16 Feb 2023","Download"],
+	[35,"Haldhar Vikas Credit Cooperative Society ltd.,","GUJARAT","VADODARA","16 Feb 2023","Download"],
+	[36,"Shree Warana Sahakari Dudh Utpadak Prakriya Sangh Ltd","MAHARASHTRA","KOLHAPUR","11 Feb 2023","Download"],
+	[37,"State Bank of India(Bhopal Circle), Adhikari Sahkari Sakh Samiti Maryadit","MADHYA PRADESH","BHOPAL","08 Feb 2023","Download"],
+	[38,"Sonartari Multistate Agro Cooperative Society ltd.,","NEW DELHI","NEW DELHI","08 Feb 2023","Download"],
+	[39,"Kokan Mercantile Cooperative Bank Ltd,","MAHARASHTRA","MUMBAI","08 Feb 2023","Download"],
+	[40,"Rajmata Multi State Coop. Credit Society Ltd.,","MAHARASHTRA","SOLAPUR","06 Feb 2023","Download"],
+	[41,"Ujala Credit Coop. Society Ltd.,","NEW DELHI","NEW DELHI","04 Feb 2023","Download"],
+	[42,"The Panipat Urban Cooperative Bank Ltd (PUCB)","HARYANA","PANIPAT","24 Jan 2023","Download"],
+	[43,"Tata Communications Employees Cooperative Credit Society Ltd,","MAHARASHTRA","MUMBAI","23 Jan 2023","Download"],
+	[44,"Triumph Infrastructure & labour Contract Cooperative Society Ltd.","KERALA","THRISSUR","23 Jan 2023","Download"],
+	[45,"Stars Multipurpose Cooperative Society ltd.,","ANDHRA PRADESH","HYDERABAD","20 Jan 2023","Download"],
+	[46,"National Yuva Cooperative Society Ltd. ( NYCS )","NEW DELHI","NEW DELHI","18 Jan 2023","Download"],
+	[47,"Krishi sansaar multi state cooperative society ltd.","NEW DELHI","NEW DELHI","18 Jan 2023","Download"],
+	[48,"Canara Bank Officers Cooperative Thrift & Credit Society Limited","TAMIL NADU","CHENNAI","16 Jan 2023","Download"],
+	[49,"Nishant Sahakari Gramin Pat Purwatha Sanstha Maryadit","MAHARASHTRA","AKOLA","13 Jan 2023","Download"],
+	[50,"Rural & Agriculture Farmer''s Multi State Cooperative Society Ltd.","TAMIL NADU","CHENNAI","12 Jan 2023","Download"],
+	[51,"Bharatam information Techonology Cooperative ltd.","HARYANA","FARIDABAD","11 Jan 2023","Download"],
+	[52,"Bhandara Laxmi Multi State Credit Co-operative Society Limited","MAHARASHTRA","BHANDARA","09 Jan 2023","Download"],
+	[53,"Shri Vardhaman Multi State Cooperative Credit Society Ltd","MAHARASHTRA","WASHIM","06 Jan 2023","Download"],
+	[54,"Agrovision Farmer Multi State Cooperative Society Ltd.","UTTAR PRADESH","DEORIA","27 Dec 2022","Download"],
+	[55,"National Federation of Farmers&amp;#39; procurement , Processing and Retailing Cooperative of India Ltd.","NEW DELHI","NEW DELHI","27 Dec 2022","Download"],
+	[56,"e-Tribe Agriculture & Marketing Multi State Cooperative Society Ltd.","NEW DELHI","NEW DELHI","26 Dec 2022","Download"],
+	[57,"Meja Agro Multi state coop.society ltd.","UTTAR PRADESH","ALLAHABAD (PRAYAGRAJ)","23 Dec 2022","Download"],
+	[58,"Dr Appasahed Urf Sa. Re. Patil Jayysinghpur  Udgaon Sahakari Bank Ltd","MAHARASHTRA","KOLHAPUR","22 Dec 2022","Download"],
+	[59,"Dhanmudra Urban Multi-state Co-operative Credit Society Ltd","MAHARASHTRA","NANDED","15 Dec 2022","Download"],
+	[60,"LDC Multi State Cooperative Credit Society Ltd.,","MAHARASHTRA","PUNE","10 Dec 2022","Download"],
+	[61,"The Gujarat State Coop. Agri. & Rural Development Bank Ltd.","GUJARAT","AHMADABAD","08 Dec 2022","Download"],
+	[62,"The Knanaya Multi state Cooperative Credit Society Ltd.,","KERALA","KOTTAYAM","05 Dec 2022","Download"],
+	[63,"The Malabar Multi State Agro Cooperative Society Limited","KERALA","KANNUR","24 Nov 2022","Download"],
+	[64,"Jyotipath Multipurpose Cooperative Society Ltd.,","UTTAR PRADESH","MORADABAD","24 Nov 2022","Download"],
+	[65,"Tamilnadu Solar Electricity Producer Cooperative Society MSCS","TAMIL NADU","RAMANATHAPURAM","15 Nov 2022","Download"],
+	[66,"Thane Janata Sahakari Bank Ltd., (TJSB)","MAHARASHTRA","THANE","14 Nov 2022","Download"],
+	[67,"Raptakos Brett & Company Employees Coop Credit Society Ltd.","MAHARASHTRA","MUMBAI","09 Nov 2022","Download"],
+	[68,"Krushisadhna Mahila Multi State Agro Cooperative society Ltd","MAHARASHTRA","NASIK","09 Nov 2022","Download"],
+	[69,"Ganga multipurpose cooperative society ltd.","UTTARAKHAND","HARIDWAR","09 Nov 2022","Download"],
+	[70,"Shree Ravalnath Cooperative Housing Finance Society Ltd.,","MAHARASHTRA","KOLHAPUR","20 Oct 2022","Download"],
+	[71,"Ashwini Sahakari Rugnalaya Sanshodhan Kendra Niyamit,","MAHARASHTRA","SOLAPUR","14 Oct 2022","Download"],
+	[72,"Kisan Kalyan Agro & Maketing Cooperative Society Ltd. (KAMCO)","UTTAR PRADESH","MEERUT","13 Oct 2022","Download"],
+	[73,"Natural Agro Farming Multi State Cooperative Society Ltd.","NEW DELHI","NEW DELHI","04 Oct 2022","Download"],
+	[74,"Indian Agriculture Marketing Cooperative Ltd.,","RAJASTHAN","JAIPUR","03 Oct 2022","Download"],
+	[75,"The People Multi-State Coop. Credit Society Ltd.,","MAHARASHTRA","OSMANABAD","30 Sep 2022","Download"],
+	[76,"Govind Urban Multi State Credit Cooperative Society Ltd.","MAHARASHTRA","NAGPUR","28 Sep 2022","Download"],
+	[77,"Prabhat Multi State Cooperative Credit Soicety Ltd.,","MAHARASHTRA","LATUR","28 Sep 2022","Download"],
+	[78,"Dr. Prabhakar Kore Cooperative Credit Society Ltd.","KARNATAKA","BELGAUM","28 Sep 2022","Download"],
+	[79,"Saraswat Cooperative Bank Ltd","MAHARASHTRA","MUMBAI","28 Sep 2022","Download"],
+	[80,"Maharaja Multi State Cooperative Credit Society Ltd.,","MAHARASHTRA","SATARA","28 Sep 2022","Download"],
+	[81,"Karur Vysya Bank Staff Coop Thrift & credit Society Ltd","TAMIL NADU","CHENNAI","28 Sep 2022","Download"],
+	[82,"Kerala Vyapari Vyvasayi Ekopana Samithi","KERALA","MALAPPURAM","28 Sep 2022","Download"],
+	[83,"Bharathiasar SC & ST Women''s Welfare Cooperative Ltd.","ARUNACHAL PRADESH","PAPUM PARE","27 Sep 2022","Download"],
+	[84,"Kamdhenu Multi State Credit Cooperative Society Ltd","MAHARASHTRA","THANE","27 Sep 2022","Download"],
+	[85,"Shree Siddheshwar Sahakari Sakhar Karkhana Ltd","MAHARASHTRA","SOLAPUR","26 Sep 2022","Download"],
+	[86,"Tuljabhavani urban Multi State Cooperative Credit Society Ltd.,","MAHARASHTRA","BEED","26 Sep 2022","Download"],
+	[87,"State Bank of India Employees (M.S. Patel) Co-operative Credit Society Ltd","MAHARASHTRA","MUMBAI","23 Sep 2022","Download"],
+	[88,"Indian Advocates Multi  State Multi purpose Cooperative Society Ltd.,","MAHARASHTRA","MUMBAI","22 Sep 2022","Download"],
+	[89,"Mahesh Nagari Multi State Cooperative Credit Society Ltd.","MAHARASHTRA","PUNE","21 Sep 2022","Download"],
+	[90,"The Varachha Coop. Bank Ltd.","GUJARAT","SURAT","19 Sep 2022","Download"],
+	[91,"Natural Agro Farming Multi State Cooperative Society Ltd.","NEW DELHI","NEW DELHI","16 Sep 2022","Download"],
+	[92,"COSMOS Cooperative Bank Ltd.,","MAHARASHTRA","PUNE","12 Sep 2022","Download"],
+	[93,"Mata Ramabai Ambedkar Multi State and Multi-Purpose Co-operative Society Ltd.","NEW DELHI","NEW DELHI","02 Sep 2022","Download"],
+	[94,"Durva Multi State Dairy &  Agro Cooperative Society Ltd.,","MAHARASHTRA","MUMBAI","27 Jul 2022","Download"],
+	[95,"Sadbhav Consumers Multi State Cooperative Society Ltd.,","GUJARAT","AHMADABAD","19 Jul 2022","Download"],
+	[96,"Airfintech Multistate Cooperative Credit Society","MAHARASHTRA","BULDHANA","06 Jul 2022","Download"],
+	[97,"Urban Cooperative Bank Ltd.","UTTAR PRADESH","BAREILLY","24 Jun 2022","Download"],
+	[98,"Bhartiya Farmers'' Agro Business Development Cooperative Ltd.,","NAGALAND","DIMAPUR","14 Jun 2022","Download"],
+	[99,"The Evergreen Farmers Development Multi State Cooperative Society Ltd,","PUNJAB","S.A.S NAGAR (MOHALI)","29 May 2022","Download"],
+	[100,"Haldhar Vikas Credit Co-operative Society Ltd.","GUJARAT","VADODARA","28 May 2022","Download"]
+  ]

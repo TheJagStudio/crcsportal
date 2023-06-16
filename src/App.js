@@ -7,6 +7,7 @@ import UserRegister from "./Pages/UserRegister";
 import UserLogin from "./Pages/UserLogin";
 
 import AdminLogin from "./Admin/Pages/AdminLogin";
+import AdminHome from "./Admin/Pages/AdminHome";
 
 import StateWiseChart from "./Pages/StateWiseChart";
 import YearWiseChart from "./Pages/YearWiseChart";
@@ -42,6 +43,9 @@ import StateRegistrar from "./Pages/StateRegistrar";
 import SecondSchedule from "./Pages/SecondSchedule";
 import Complaints from "./Pages/Complaints";
 import OrderSheet from "./Pages/OrderSheet";
+import Circular from "./Pages/Circular";
+import LatestCerificate from "./Pages/LatestCerificate";
+import AmendmentCertificate from "./Pages/AmendmentCertificate";
 
 function App() {
 	const color = [
@@ -118,7 +122,12 @@ function App() {
 				<Route path="second-schedule" exact element={<SecondSchedule />} />
 				<Route path="complaints" exact element={<Complaints />} />
 				<Route path="order-sheet" exact element={<OrderSheet />} />
+				<Route path="circular" exact element={<Circular />} />
+				<Route path="latest-cerificate" exact element={<LatestCerificate />} />
+				<Route path="amendment-certificate" exact element={<AmendmentCertificate />} />
+				
 				<Route path="admin/login" element={<AdminLogin />} />
+				<Route path="admin" element={<AdminHome />} />
 			</Routes>
 		</Router>
 	);

@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import { Grid } from "gridjs";
 
-const Table = ({ rowLimit, columns, data, classes }) => {
+const Table = ({ rowLimit, columns, data, classes, id }) => {
 	const wrapperRef = useRef(null);
 
 	const grid = new Grid({
@@ -43,7 +43,7 @@ const Table = ({ rowLimit, columns, data, classes }) => {
 		grid.render(wrapperRef.current);
 	});
 
-	return <div className={classes} ref={wrapperRef}></div>;
+	return <div className={classes} ref={wrapperRef} id={id}></div>;
 };
 
 export default Table;
