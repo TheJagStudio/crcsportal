@@ -26,8 +26,16 @@ code {
 	display: none;
 }
 
-input{
-  outline: none !important;
+input {
+	outline: none !important;
+}
+
+.progress {
+	border-radius: 9999px;
+	display: flex;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
 }
 
 @tailwind base;

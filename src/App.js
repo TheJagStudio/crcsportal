@@ -6,9 +6,6 @@ import Homepage from "./Pages/Homepage";
 import UserRegister from "./Pages/UserRegister";
 import UserLogin from "./Pages/UserLogin";
 
-import AdminLogin from "./Admin/Pages/AdminLogin";
-import AdminHome from "./Admin/Pages/AdminHome";
-
 import StateWiseChart from "./Pages/StateWiseChart";
 import YearWiseChart from "./Pages/YearWiseChart";
 import TypeWiseChart from "./Pages/TypeWiseChart";
@@ -46,6 +43,12 @@ import OrderSheet from "./Pages/OrderSheet";
 import Circular from "./Pages/Circular";
 import LatestCerificate from "./Pages/LatestCerificate";
 import AmendmentCertificate from "./Pages/AmendmentCertificate";
+import Noticies from "./Pages/Noticies"
+
+// Admin Pages
+import AdminLogin from "./Admin/Pages/AdminLogin";
+import AdminHome from "./Admin/Pages/AdminHome";
+import AdminStateWiseList from "./Admin/Pages/AdminStateWiseList"
 
 function App() {
 	const color = [
@@ -125,9 +128,11 @@ function App() {
 				<Route path="circular" exact element={<Circular />} />
 				<Route path="latest-cerificate" exact element={<LatestCerificate />} />
 				<Route path="amendment-certificate" exact element={<AmendmentCertificate />} />
+				<Route path="noticies" exact element={<Noticies />} />
 				
-				<Route path="admin/login" element={<AdminLogin />} />
 				<Route path="admin" element={<AdminHome />} />
+				<Route path="admin/login" element={<AdminLogin />} />
+				<Route path="admin/state-wise-list" element={<AdminStateWiseList />} />
 			</Routes>
 		</Router>
 	);
