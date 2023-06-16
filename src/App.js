@@ -38,7 +38,10 @@ import LiquidationList from "./Pages/LiquidationList";
 import Bank from "./Pages/Bank";
 
 // Footer pages
-import StateRegistrar from "./Pages/StateRegistrar"
+import StateRegistrar from "./Pages/StateRegistrar";
+import SecondSchedule from "./Pages/SecondSchedule";
+import Complaints from "./Pages/Complaints";
+import OrderSheet from "./Pages/OrderSheet";
 
 function App() {
 	const color = [
@@ -112,6 +115,9 @@ function App() {
 				<Route path="liquidation-list" exact element={<LiquidationList />} />
 				<Route path="banks" exact element={<Bank />} />
 				<Route path="state-registrar" exact element={<StateRegistrar />} />
+				<Route path="second-schedule" exact element={<SecondSchedule />} />
+				<Route path="complaints" exact element={<Complaints />} />
+				<Route path="order-sheet" exact element={<OrderSheet />} />
 				<Route path="admin/login" element={<AdminLogin />} />
 			</Routes>
 		</Router>

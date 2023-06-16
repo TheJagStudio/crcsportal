@@ -13,17 +13,17 @@ const Footer = () => {
 								</a>
 							</li>
 							<li>
-								<a href="#" title="" className="sm:sm:text-base text-sm text-sm text-white transition-all duration-200 hover:scale-110 origin-left hover:font-bold">
+								<a href="second-schedule" title="" className="sm:sm:text-base text-sm text-sm text-white transition-all duration-200 hover:scale-110 origin-left hover:font-bold">
 									Societies in the Second Schedule
 								</a>
 							</li>
 							<li>
-								<a href="#" title="" className="sm:sm:text-base text-sm text-sm text-white transition-all duration-200 hover:scale-110 origin-left hover:font-bold">
+								<a href="complaints" title="" className="sm:sm:text-base text-sm text-sm text-white transition-all duration-200 hover:scale-110 origin-left hover:font-bold">
 									Complaint & Hearing Notice
 								</a>
 							</li>
 							<li>
-								<a href="#" title="" className="sm:sm:text-base text-sm text-sm text-white transition-all duration-200 hover:scale-110 origin-left hover:font-bold">
+								<a href="order-sheet" title="" className="sm:sm:text-base text-sm text-sm text-white transition-all duration-200 hover:scale-110 origin-left hover:font-bold">
 									Hearing Order Sheet
 								</a>
 							</li>

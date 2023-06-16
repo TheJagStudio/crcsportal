@@ -11,7 +11,7 @@ const Form1 = () => {
 					<p className="md:text-xl text-lg font-semibold text-primary-700 text-center capitalize">Form - I</p>
 				</div>
 				<div className="border-2 border-primary-600 p-4 py-3 rounded-xl shadow-lg lg:w-[85%] w-full mx-auto mt-5">
-					<iframe id="formPDF" name="formPDF" src="/docs/form1.pdf" class="w-full mx-auto h-auto aspect-[1.4/1] rounded-lg"></iframe>
+					<iframe id="formPDF" name="formPDF" src="/docs/Form1.pdf" class="w-full mx-auto h-auto aspect-[1.4/1] rounded-lg"></iframe>
 				</div>
 			</div>
 			<Footer />
