@@ -14,7 +14,7 @@ const CalenderYearWiseList = () => {
 	return (
 		<>
 			<Navbar />
-			<div className="p-5 w-full">
+			<div className="p-5 w-full bg-white mt-3 px-10 mb-[39rem] lg:mb-[23rem]  shadow-2xl rounded-b-3xl">
 				<div className="border-2 border-primary-600 p-4 py-3 rounded-xl shadow-lg w-[85%] mx-auto">
 					<p className="md:text-xl text-lg font-semibold text-primary-700 text-center capitalize">Year wise registered societies from 1986 onwards under MSCS, 2002</p>
 				</div>
@@ -81,7 +81,7 @@ const CalenderYearWiseList = () => {
 							</span>
 						</label>
 					</div>
-					<Table rowLimit={25} columns={["S.No", "Year", "No. of Societies"]} data={CalenderYearWiseData} classes={"w-[70%] mx-auto overflow-x-scroll noScrollBar drop-shadow-lg"} />
+					<Table link={process.env.REACT_APP_SERVER+"/api/calender-year-wise-list/"} rowLimit={25} columns={["S.No", "Year", "No. of Societies"]} data={CalenderYearWiseData} classes={"w-[70%] mx-auto overflow-x-scroll noScrollBar drop-shadow-lg"} />
 					<p className="text-red-700 text-sm font-semibold mt-3">** Note : 167 No. of registered societies under MSCS, 2002 before 1986 and 9 Societies had been deregistered after 1986</p>
 				</div>
 			</div>

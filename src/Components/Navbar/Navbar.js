@@ -85,9 +85,9 @@ const Navbar = () => {
 	];
 
 	return (
-		<div className="flex w-full sticky -top-28 z-50 transition-all duration-500">
-			<div className="w-full">
-				<div id="navbar" className="w-full p-5 md:py-5 pt-4 py-1 max-h-[12.5rem] text-white bg-gradient-to-tr from-primary-800 to-primary-500 transition-all duration-500">
+		<div className="flex w-full sticky -top-28 z-50 transition-all duration-500 overflow-visible">
+			<div className="w-full overflow-visible">
+				<div id="navbar" className="rounded-b-2xl w-full p-5 md:py-5 pt-4 py-1 max-h-[12.5rem] text-white bg-gradient-to-tr from-primary-800 to-primary-500 transition-all duration-500">
 					<div className="flex items-center justify-between">
 						<div className="flex items-center sm:gap-4 gap-3">
 							<img src="/images/emb.png" alt="logo" className="sm:w-14 w-10 rounded-lg" />

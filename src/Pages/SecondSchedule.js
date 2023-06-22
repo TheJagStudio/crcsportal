@@ -6,7 +6,7 @@ const SecondSchedule = () => {
 	return (
 		<>
 			<Navbar />
-			<div className="p-5 w-full">
+			<div className="p-5 w-full bg-white mt-3 px-10 mb-[39rem] lg:mb-[23rem]  shadow-2xl rounded-b-3xl">
 				<p className="text-xs text-center mb-4 text-red-700 font-bold">
 					THE SECOND SCHEDULE <br /> [See Section 3(r) and 116]
 				</p>

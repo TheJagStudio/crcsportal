@@ -1,22 +1,35 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
 
 const UserRegister = () => {
+	const [states, setStates] = useState([]);
+	const [districts, setDistricts] = useState([]);
+	const [societyTypes, setSocietyTypes] = useState([]);
+	const [societies, setSocieties] = useState([]);
+	useEffect(() => {
+		fetch(process.env.REACT_APP_SERVER + "/api/stateFetcher")
+			.then((response) => response.json())
+			.then((result) => {
+				setStates(result);
+			})
+			.catch((error) => console.log("error", error));
+		fetch(process.env.REACT_APP_SERVER + "/api/societyTypeFetcher")
+			.then((response) => response.json())
+			.then((result) => {
+				setSocietyTypes(result);
+			})
+			.catch((error) => console.log("error", error));
+	}, []);
 	return (
-		<section className="w-full relative min-h-screen p-10 flex items-center justify-between bg-gradient-to-tl from-secondary-400 to-secondary-100">
+		<section className="w-full relative min-h-screen p-0 lg:p-10 flex items-center justify-between bg-gradient-to-tl from-secondary-400 to-secondary-100">
 			<Helmet>
 				<title>The Central Registrar of Cooperative Societies, Ministry of Agriculture and Farmers' Welfare</title>
 			</Helmet>
-			{/* <div className="absolute top-0 left-0 h-full w-full">
-				<div className="absolute bg-primary-400 rounded-full h-96 w-96 -top-20 left-56" />
-				<div className="absolute bg-secondary-400 rounded-full h-96 w-96 bottom-20 right-56" />
-				<div className="absolute bg-primary-400 rounded-full h-96 w-96 -top-20 left-56" />
-			</div> */}
 
-			<form className="w-[60%] mx-auto border-2 border-secondary-700 bg-white backdrop-blur-xl rounded-xl overflow-hidden">
+			<form className="lg:w-[60%] w-full mx-auto border-2 border-secondary-700 bg-white backdrop-blur-xl rounded-none lg:rounded-xl overflow-hidden">
 				<div className="bg-gradient-to-tr from-secondary-700 to-secondary-500 p-4">
-					<h1 className="text-3xl font-bold text-white w-full text-center">MSCS : Ministry of Agriculture and Farmers' Welfare</h1>
-					<p className="text-xl text-white w-full text-center my-2 font-medium">Office of The Central Registrar of Cooperative Societies</p>
+					<h1 className="text-md lg:text-3xl font-bold text-white w-full text-center">MSCS : Ministry of Agriculture and Farmers' Welfare</h1>
+					<p className="text-xs lg:text-xl text-white w-full text-center my-2 font-medium">Office of The Central Registrar of Cooperative Societies</p>
 				</div>
 				<div className="px-8 py-6">
 					<p className="text-3xl mb-7 w-full text-center font-semibold text-slate-700 dark:text-navy-100">User Registration</p>
@@ -25,46 +38,28 @@ const UserRegister = () => {
 							<label className="block text-sm">
 								<span>Select State (Head Quater)</span>
 								<span className="relative mt-1.5 flex">
-									<select className="form-input outline-none peer w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 pl-9 placeholder:font-light hover:border-secondary-700 focus:border-secondary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent">
-										<option selected disabled>
+									<select
+										id="state"
+										name="state"
+										onChange={() => {
+											let stateTemp = document.getElementById("state").value;
+											fetch(process.env.REACT_APP_SERVER + "/api/districtFetcher?state=" + stateTemp)
+												.then((response) => response.json())
+												.then((result) => {
+													setDistricts(result);
+												})
+												.catch((error) => console.log("error", error));
+										}}
+										className="form-input outline-none peer w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 pl-9 placeholder:font-light hover:border-secondary-700 focus:border-secondary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent"
+									>
+										<option selected disabled value="">
 											--Select State--
 										</option>
-										<option value="ANDAMANANDNICOBAR">ANDAMAN AND NICOBAR</option>
-										<option value="ANDHRAPRADESH">ANDHRA PRADESH</option>
-										<option value="ARUNACHALPRADESH">ARUNACHAL PRADESH</option>
-										<option value="ASSAM">ASSAM</option>
-										<option value="BIHAR">BIHAR</option>
-										<option value="CHANDIGARH">CHANDIGARH</option>
-										<option value="CHHATTISGARH">CHHATTISGARH</option>
-										<option value="DADRAANDNAGARHAVELI">DADRA AND NAGAR HAVELI</option>
-										<option value="DAMANANDDIU">DAMAN AND DIU</option>
-										<option value="GOA">GOA</option>
-										<option value="GUJARAT">GUJARAT</option>
-										<option value="HARYANA">HARYANA</option>
-										<option value="HIMACHALPRADESH">HIMACHAL PRADESH</option>
-										<option value="JAMMUANDKASHMIR">JAMMU AND KASHMIR</option>
-										<option value="JHARKHAND">JHARKHAND</option>
-										<option value="KARNATAKA">KARNATAKA</option>
-										<option value="KERALA">KERALA</option>
-										<option value="LAKSHADWEEP">LAKSHADWEEP</option>
-										<option value="MADHYAPRADESH">MADHYA PRADESH</option>
-										<option value="MAHARASHTRA">MAHARASHTRA</option>
-										<option value="MANIPUR">MANIPUR</option>
-										<option value="MEGHALAYA">MEGHALAYA</option>
-										<option value="MIZORAM">MIZORAM</option>
-										<option value="NAGALAND">NAGALAND</option>
-										<option value="NEWDELHI">NEW DELHI</option>
-										<option value="ODISHA">ODISHA</option>
-										<option value="PONDICHERRY">PONDICHERRY</option>
-										<option value="PUNJAB">PUNJAB</option>
-										<option value="RAJASTHAN ">RAJASTHAN </option>
-										<option value="SIKKIM">SIKKIM</option>
-										<option value="TAMILNADU">TAMIL NADU</option>
-										<option value="TELANGANA">TELANGANA</option>
-										<option value="TRIPURA">TRIPURA</option>
-										<option value="UTTARPRADESH">UTTAR PRADESH</option>
-										<option value="UTTARAKHAND">UTTARAKHAND</option>
-										<option value="WESTBENGAL">WEST BENGAL</option>
+										{states.map((state, index) => (
+											<option key={index} value={state}>
+												{state}
+											</option>
+										))}
 									</select>
 									<span className="pointer-events-none absolute flex h-full w-10 items-center justify-center text-secondary-700 peer-focus:text-secondary dark:text-navy-300 dark:peer-focus:text-accent">
 										<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="1em" viewBox="0 0 640 512">
@@ -76,14 +71,15 @@ const UserRegister = () => {
 							<label className="block text-sm">
 								<span>Select District</span>
 								<span className="relative mt-1.5 flex">
-									<select className="form-input outline-none peer w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 pl-9 placeholder:font-light hover:border-secondary-700 focus:border-secondary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent">
-										<option selected disabled>
+									<select required id="district" name="district" className="form-input outline-none peer w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 pl-9 placeholder:font-light hover:border-secondary-700 focus:border-secondary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent">
+										<option selected disabled value="">
 											--Select District--
 										</option>
-										<option value="US">United States</option>
-										<option value="CA">Canada</option>
-										<option value="FR">France</option>
-										<option value="DE">Germany</option>
+										{districts.map((district, index) => (
+											<option key={index} value={district}>
+												{district}
+											</option>
+										))}
 									</select>
 									<span className="pointer-events-none absolute flex h-full w-10 items-center justify-center text-secondary-700 peer-focus:text-secondary dark:text-navy-300 dark:peer-focus:text-accent">
 										<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="1em" viewBox="0 0 640 512">
@@ -99,34 +95,31 @@ const UserRegister = () => {
 								<span>Select Type / Class of the Society :</span>
 								<span className="relative mt-1.5 flex">
 									<select
+										required
 										onChange={() => {
-											document.getElementById("SocietyName").innerText = document.getElementById("SocietyType").value + " Name :";
+											let district = document.getElementById("district").value;
+											let state = document.getElementById("state").value;
+											let societyType = document.getElementById("SocietyType").value;
+											document.getElementById("SocietyName").innerText = societyType + " Name :";
+											fetch(process.env.REACT_APP_SERVER + "/api/societyNameFetcher?societyType=" + societyType + "&district=" + district + "&state=" + state)
+												.then((response) => response.json())
+												.then((result) => {
+													setSocieties(result);
+												})
+												.catch((error) => console.log("error", error));
 										}}
 										id="SocietyType"
+										name="SocietyType"
 										className="form-input outline-none peer w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 pl-9 placeholder:font-light hover:border-secondary-700 focus:border-secondary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent"
 									>
-										<option selected disabled>
+										<option selected disabled value="">
 											--Select Type--
 										</option>
-										<option value="Agro">Agro</option>
-										<option value="Construction">Construction</option>
-										<option value="Consumer">Consumer</option>
-										<option value="Cooperative Bank">Cooperative Bank</option>
-										<option value="Credit">Credit</option>
-										<option value="Dairy">Dairy</option>
-										<option value="Federation">Federation</option>
-										<option value="Fisheries">Fisheries</option>
-										<option value="Health/Hospital">Health/Hospital</option>
-										<option value="Housing">Housing</option>
-										<option value="Industrial/Textile">Industrial/Textile</option>
-										<option value="Marketing">Marketing</option>
-										<option value="Multi Purpose">Multi Purpose</option>
-										<option value="National Federation">National Federation</option>
-										<option value="Others">Others</option>
-										<option value="Technical">Technical</option>
-										<option value="Tourism">Tourism</option>
-										<option value="Transport">Transport</option>
-										<option value="Welfare">Welfare</option>
+										{societyTypes.map((type, index) => (
+											<option key={index} value={type}>
+												{type}
+											</option>
+										))}
 									</select>
 									<span className="pointer-events-none absolute flex h-full w-10 items-center justify-center text-secondary-700 peer-focus:text-secondary dark:text-navy-300 dark:peer-focus:text-accent">
 										<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="1.4em" viewBox="0 0 5120 5120">
@@ -149,14 +142,15 @@ const UserRegister = () => {
 							<label className="block text-sm col-span-2">
 								<span id="SocietyName">Agro Name :</span>
 								<span className="relative mt-1.5 flex">
-									<select className="form-input outline-none peer w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 pl-9 placeholder:font-light hover:border-secondary-700 focus:border-secondary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent">
-										<option selected disabled>
+									<select required id="socName" name="socName" className="form-input outline-none peer w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 pl-9 placeholder:font-light hover:border-secondary-700 focus:border-secondary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent">
+										<option selected disabled value="">
 											--Select Type--
 										</option>
-										<option value="US">United States</option>
-										<option value="CA">Canada</option>
-										<option value="FR">France</option>
-										<option value="DE">Germany</option>
+										{societies.map((society, index) => (
+											<option key={index} value={society}>
+												{society}
+											</option>
+										))}
 									</select>
 									<span className="pointer-events-none absolute flex h-full w-10 items-center justify-center text-secondary-700 peer-focus:text-secondary dark:text-navy-300 dark:peer-focus:text-accent">
 										<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="1em" viewBox="0 0 576 512">
@@ -169,14 +163,14 @@ const UserRegister = () => {
 
 						<label className="block text-sm">
 							<span>Complete Registered Address (with PIN code)</span>
-							<textarea rows="3" placeholder="Your Address (Area, Street and PIN Code)" className="form-textarea outline-none mt-1.5 w-full rounded-lg border border-slate-300 bg-transparent p-2.5 placeholder:font-light hover:border-secondary-700 focus:border-secondary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent"></textarea>
+							<textarea rows="3" id="address" name="address" placeholder="Your Address (Area, Street and PIN Code)" className="form-textarea outline-none mt-1.5 w-full rounded-lg border border-slate-300 bg-transparent p-2.5 placeholder:font-light hover:border-secondary-700 focus:border-secondary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent"></textarea>
 						</label>
 
 						<div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
 							<label className="block text-sm">
 								<span>PAN No.</span>
 								<span className="relative mt-1.5 flex">
-									<input className="form-input outline-none peer w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 pl-9 placeholder:font-light hover:border-secondary-700 focus:border-secondary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent" placeholder="Please Enter PAN No." type="text" />
+									<input required id="panNo" name="panNo" className="form-input outline-none peer w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 pl-9 placeholder:font-light hover:border-secondary-700 focus:border-secondary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent" placeholder="Please Enter PAN No." type="text" />
 									<span className="pointer-events-none absolute flex h-full w-10 items-center justify-center text-secondary-700 peer-focus:text-secondary dark:text-navy-300 dark:peer-focus:text-accent">
 										<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="1.2em" viewBox="0 0 576 512">
 											<path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm80 256h64c44.2 0 80 35.8 80 80c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16c0-44.2 35.8-80 80-80zm-32-96a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zm256-32H496c8.8 0 16 7.2 16 16s-7.2 16-16 16H368c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64H496c8.8 0 16 7.2 16 16s-7.2 16-16 16H368c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64H496c8.8 0 16 7.2 16 16s-7.2 16-16 16H368c-8.8 0-16-7.2-16-16s7.2-16 16-16z" />
@@ -187,7 +181,7 @@ const UserRegister = () => {
 							<label className="block text-sm">
 								<span>TAN No.</span>
 								<span className="relative mt-1.5 flex">
-									<input className="form-input outline-none peer w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 pl-9 placeholder:font-light hover:border-secondary-700 focus:border-secondary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent" placeholder="Please Enter TAN No." type="text" />
+									<input required id="tanNo" name="tanNo" className="form-input outline-none peer w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 pl-9 placeholder:font-light hover:border-secondary-700 focus:border-secondary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent" placeholder="Please Enter TAN No." type="text" />
 									<span className="pointer-events-none absolute flex h-full w-10 items-center justify-center text-secondary-700 peer-focus:text-secondary dark:text-navy-300 dark:peer-focus:text-accent">
 										<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="1.2em" viewBox="0 0 576 512">
 											<path d="M0 96l576 0c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96zm0 32V416c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V128H0zM64 405.3c0-29.5 23.9-53.3 53.3-53.3H234.7c29.5 0 53.3 23.9 53.3 53.3c0 5.9-4.8 10.7-10.7 10.7H74.7c-5.9 0-10.7-4.8-10.7-10.7zM176 192a64 64 0 1 1 0 128 64 64 0 1 1 0-128zm176 16c0-8.8 7.2-16 16-16H496c8.8 0 16 7.2 16 16s-7.2 16-16 16H368c-8.8 0-16-7.2-16-16zm0 64c0-8.8 7.2-16 16-16H496c8.8 0 16 7.2 16 16s-7.2 16-16 16H368c-8.8 0-16-7.2-16-16zm0 64c0-8.8 7.2-16 16-16H496c8.8 0 16 7.2 16 16s-7.2 16-16 16H368c-8.8 0-16-7.2-16-16z" />
@@ -200,7 +194,7 @@ const UserRegister = () => {
 						<label className="block text-sm">
 							<span>Name of Authorized Officer</span>
 							<span className="relative mt-1.5 flex">
-								<input className="form-input outline-none peer w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 pl-9 placeholder:font-light hover:border-secondary-700 focus:border-secondary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent" placeholder="Please Enter Name" type="text" />
+								<input required id="name" name="name" className="form-input outline-none peer w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 pl-9 placeholder:font-light hover:border-secondary-700 focus:border-secondary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent" placeholder="Please Enter Name" type="text" />
 								<span className="pointer-events-none absolute flex h-full w-10 items-center justify-center text-secondary-700 peer-focus:text-secondary dark:text-navy-300 dark:peer-focus:text-accent">
 									<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="1.1em" viewBox="0 0 448 512">
 										<path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z" />
@@ -213,8 +207,8 @@ const UserRegister = () => {
 							<label className="block text-sm">
 								<span>Designation</span>
 								<span className="relative mt-1.5 flex">
-									<select className="form-input outline-none peer w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 pl-9 placeholder:font-light hover:border-secondary-700 focus:border-secondary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent">
-										<option selected disabled>
+									<select required id="designation" name="designation" className="form-input outline-none peer w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 pl-9 placeholder:font-light hover:border-secondary-700 focus:border-secondary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent">
+										<option selected disabled value="">
 											Choose a country
 										</option>
 										<option value="US">United States</option>
@@ -230,9 +224,9 @@ const UserRegister = () => {
 								</span>
 							</label>
 							<label className="block text-sm">
-								<span>No. of Authorized Officer</span>
+								<span>Mobile No. of Authorized Officer</span>
 								<span className="relative mt-1.5 flex">
-									<input className="form-input outline-none peer w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 pl-9 placeholder:font-light hover:border-secondary-700 focus:border-secondary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent" placeholder="Please Enter Mobile No." type="text" />
+									<input required id="mobileNo" name="mobileNo" className="form-input outline-none peer w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 pl-9 placeholder:font-light hover:border-secondary-700 focus:border-secondary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent" placeholder="Please Enter Mobile No." type="text" />
 									<span className="pointer-events-none absolute flex h-full w-10 items-center justify-center text-secondary-700 peer-focus:text-secondary dark:text-navy-300 dark:peer-focus:text-accent">
 										<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="1.2em" viewBox="0 0 384 512">
 											<path d="M80 0C44.7 0 16 28.7 16 64V448c0 35.3 28.7 64 64 64H304c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H80zM192 400a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
@@ -246,7 +240,7 @@ const UserRegister = () => {
 							<label className="block text-sm">
 								<span>Email Id</span>
 								<span className="relative mt-1.5 flex">
-									<input className="form-input outline-none peer w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 pl-9 placeholder:font-light hover:border-secondary-700 focus:border-secondary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent" placeholder="Please Enter Email Id" type="email" />
+									<input required id="email" name="email" className="form-input outline-none peer w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 pl-9 placeholder:font-light hover:border-secondary-700 focus:border-secondary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent" placeholder="Please Enter Email Id" type="email" />
 									<span className="pointer-events-none absolute flex h-full w-10 items-center justify-center text-secondary-700 peer-focus:text-secondary dark:text-navy-300 dark:peer-focus:text-accent">
 										<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="1.2em" viewBox="0 0 512 512">
 											<path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" />
@@ -257,7 +251,7 @@ const UserRegister = () => {
 							<label className="block text-sm">
 								<span>Service Tax No.</span>
 								<span className="relative mt-1.5 flex">
-									<input className="form-input outline-none peer w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 pl-9 placeholder:font-light hover:border-secondary-700 focus:border-secondary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent" placeholder="Please Enter Service Tax No." type="email" />
+									<input required id="serviceTaxNo" name="serviceTaxNo" className="form-input outline-none peer w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 pl-9 placeholder:font-light hover:border-secondary-700 focus:border-secondary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent" placeholder="Please Enter Service Tax No." type="email" />
 									<span className="pointer-events-none absolute flex h-full w-10 items-center justify-center text-secondary-700 peer-focus:text-secondary dark:text-navy-300 dark:peer-focus:text-accent">
 										<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="1.2em" viewBox="0 0 448 512">
 											<path d="M181.3 32.4c17.4 2.9 29.2 19.4 26.3 36.8L197.8 128h95.1l11.5-69.3c2.9-17.4 19.4-29.2 36.8-26.3s29.2 19.4 26.3 36.8L357.8 128H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H347.1L325.8 320H384c17.7 0 32 14.3 32 32s-14.3 32-32 32H315.1l-11.5 69.3c-2.9 17.4-19.4 29.2-36.8 26.3s-29.2-19.4-26.3-36.8l9.8-58.7H155.1l-11.5 69.3c-2.9 17.4-19.4 29.2-36.8 26.3s-29.2-19.4-26.3-36.8L90.2 384H32c-17.7 0-32-14.3-32-32s14.3-32 32-32h68.9l21.3-128H64c-17.7 0-32-14.3-32-32s14.3-32 32-32h68.9l11.5-69.3c2.9-17.4 19.4-29.2 36.8-26.3zM187.1 192L165.8 320h95.1l21.3-128H187.1z" />
@@ -271,7 +265,7 @@ const UserRegister = () => {
 							<label className="block text-sm">
 								<span>Password</span>
 								<span className="relative mt-1.5 flex">
-									<input className="form-input outline-none peer w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 pl-9 placeholder:font-light hover:border-secondary-700 focus:border-secondary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent" placeholder="Please Enter Password" type="password" />
+									<input minLength={8} maxLength={16} required id="password" name="password" className="form-input outline-none peer w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 pl-9 placeholder:font-light hover:border-secondary-700 focus:border-secondary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent" placeholder="Please Enter Password" type="password" />
 									<span className="pointer-events-none absolute flex h-full w-10 items-center justify-center text-secondary-700 peer-focus:text-secondary dark:text-navy-300 dark:peer-focus:text-accent">
 										<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="1em" viewBox="0 0 448 512">
 											<path d="M144 144v48H304V144c0-44.2-35.8-80-80-80s-80 35.8-80 80zM80 192V144C80 64.5 144.5 0 224 0s144 64.5 144 144v48h16c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V256c0-35.3 28.7-64 64-64H80z" />
@@ -282,7 +276,7 @@ const UserRegister = () => {
 							<label className="block text-sm mb-5">
 								<span>Confirm Password</span>
 								<span className="relative mt-1.5 flex">
-									<input className="form-input outline-none peer w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 pl-9 placeholder:font-light hover:border-secondary-700 focus:border-secondary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent" placeholder="Please re-enter Password" type="password" />
+									<input minLength={8} maxLength={16} required id="cnfpassword" name="cnfpassword" className="form-input outline-none peer w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 pl-9 placeholder:font-light hover:border-secondary-700 focus:border-secondary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent" placeholder="Please re-enter Password" type="password" />
 									<span className="pointer-events-none absolute flex h-full w-10 items-center justify-center text-secondary-700 peer-focus:text-secondary dark:text-navy-300 dark:peer-focus:text-accent">
 										<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="1em" viewBox="0 0 448 512">
 											<path d="M144 144v48H304V144c0-44.2-35.8-80-80-80s-80 35.8-80 80zM80 192V144C80 64.5 144.5 0 224 0s144 64.5 144 144v48h16c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V256c0-35.3 28.7-64 64-64H80z" />
@@ -293,7 +287,68 @@ const UserRegister = () => {
 						</div>
 
 						<div className="block w-full text-center pb-3">
-							<button type="submit" class="text-white bg-secondary-700 hover:bg-secondary-800 focus:ring-4 focus:outline-none focus:ring-secondary-300 font-medium rounded-lg text-sm px-10 py-3  text-center dark:bg-secondary-600 dark:hover:bg-secondary-700 dark:focus:ring-secondary-800">
+							<button
+								onClick={() => {
+									let password = document.getElementById("password").value;
+									let cnfpassword = document.getElementById("cnfpassword").value;
+									let state = document.getElementById("state").value;
+									let district = document.getElementById("district").value;
+									let SocietyType = document.getElementById("SocietyType").value;
+									let socName = document.getElementById("socName").value;
+									let address = document.getElementById("address").value;
+									let panNo = document.getElementById("panNo").value;
+									let tanNo = document.getElementById("tanNo").value;
+									let name = document.getElementById("name").value;
+									let designation = document.getElementById("designation").value;
+									let mobileNo = document.getElementById("mobileNo").value;
+									let email = document.getElementById("email").value;
+									let serviceTaxNo = document.getElementById("serviceTaxNo").value;
+									let dataArr = ["password", "cnfpassword", "state", "district", "SocietyType", "socName", "address", "panNo", "tanNo", "name", "designation", "mobileNo", "email", "serviceTaxNo"];
+									for (let i = 0; i < dataArr.length; i++) {
+										if (document.getElementById(dataArr[i]).value === "") {
+											alert("Please fill all the fields");
+											return;
+										}
+									}
+									if (password !== cnfpassword) {
+										alert("Password and Confirm Password does not match");
+									} else {
+										let newForm = new FormData();
+										newForm.append("password", password);
+										newForm.append("cnfpassword", cnfpassword);
+										newForm.append("state", state);
+										newForm.append("district", district);
+										newForm.append("SocietyType", SocietyType);
+										newForm.append("socName", socName);
+										newForm.append("address", address);
+										newForm.append("panNo", panNo);
+										newForm.append("tanNo", tanNo);
+										newForm.append("name", name);
+										newForm.append("designation", designation);
+										newForm.append("mobileNo", mobileNo);
+										newForm.append("email", email);
+										newForm.append("serviceTaxNo", serviceTaxNo);
+										fetch(process.env.REACT_APP_SERVER + "/api/userRegistration/", {
+											method: "POST",
+											body: newForm,
+										})
+											.then((res) => res.json())
+											.then((data) => {
+												if (data.msg !== undefined) {
+													alert("Registration Successful");
+													window.location.reload();
+												} else {
+													alert(data.error);
+												}
+											})
+											.catch((err) => {
+												alert(err);
+											});
+									}
+								}}
+								type="button"
+								class="text-white bg-secondary-700 hover:bg-secondary-800 focus:ring-4 focus:outline-none focus:ring-secondary-300 font-medium rounded-lg text-sm px-10 py-3  text-center dark:bg-secondary-600 dark:hover:bg-secondary-700 dark:focus:ring-secondary-800"
+							>
 								Register new account
 							</button>
 						</div>

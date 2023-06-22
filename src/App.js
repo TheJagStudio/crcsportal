@@ -43,12 +43,23 @@ import OrderSheet from "./Pages/OrderSheet";
 import Circular from "./Pages/Circular";
 import LatestCerificate from "./Pages/LatestCerificate";
 import AmendmentCertificate from "./Pages/AmendmentCertificate";
-import Noticies from "./Pages/Noticies"
+import Noticies from "./Pages/Noticies";
+import RejectedOrders from "./Pages/RejectedOrders";
+import FeedbackForm from "./Pages/FeedbackForm";
+import Links from "./Pages/Links";
+import Disclaimer from "./Pages/Disclaimer";
+import Grievance from "./Pages/Grievance";
+import ContactUs from "./Pages/ContactUs";
 
 // Admin Pages
 import AdminLogin from "./Admin/Pages/AdminLogin";
 import AdminHome from "./Admin/Pages/AdminHome";
-import AdminStateWiseList from "./Admin/Pages/AdminStateWiseList"
+import AdminStateWiseList from "./Admin/Pages/AdminStateWiseList";
+import AdminUserList from "./Admin/Pages/AdminUserList";
+import AdminRecievedApplication from "./Admin/Pages/AdminRecievedApplication";
+import AdminLiquidationList from "./Admin/Pages/AdminLiquidationList";
+import AdminBankList from "./Admin/Pages/AdminBankList";
+import AdminSettings from "./Admin/Pages/AdminSettings";
 
 function App() {
 	const color = [
@@ -70,29 +81,29 @@ function App() {
 		{ 50: "#fff7ed", 100: "#ffedd5", 200: "#fed7aa", 300: "#fdba74", 400: "#fb923c", 500: "#f97316", 600: "#ea580c", 700: "#c2410c", 800: "#9a3412", 900: "#7c2d12", 950: "#431407" },
 		{ 50: "#fef2f2", 100: "#fee2e2", 200: "#fecaca", 300: "#fca5a5", 400: "#f87171", 500: "#ef4444", 600: "#dc2626", 700: "#b91c1c", 800: "#991b1b", 900: "#7f1d1d", 950: "#450a0a" },
 	];
-	window.onload = () => {
-		localStorage.setItem("colorIndex", 0);
-		setInterval(() => {
-			let colorNew = color[localStorage.getItem("colorIndex")];
-			document.documentElement.style.setProperty("--primary-50", colorNew[50]);
-			document.documentElement.style.setProperty("--primary-100", colorNew[100]);
-			document.documentElement.style.setProperty("--primary-200", colorNew[200]);
-			document.documentElement.style.setProperty("--primary-300", colorNew[300]);
-			document.documentElement.style.setProperty("--primary-400", colorNew[400]);
-			document.documentElement.style.setProperty("--primary-500", colorNew[500]);
-			document.documentElement.style.setProperty("--primary-600", colorNew[600]);
-			document.documentElement.style.setProperty("--primary-700", colorNew[700]);
-			document.documentElement.style.setProperty("--primary-800", colorNew[800]);
-			document.documentElement.style.setProperty("--primary-900", colorNew[900]);
-			document.documentElement.style.setProperty("--primary-950", colorNew[950]);
-			if (parseInt(localStorage.getItem("colorIndex")) + 1 >= color.length) {
-				localStorage.setItem("colorIndex", 0);
-			} else {
-				localStorage.setItem("colorIndex", parseInt(localStorage.getItem("colorIndex")) + 1);
-			}
-			localStorage.setItem("colorIndex", localStorage.getItem("colorIndex"));
-		}, 5000);
-	};
+	// window.onload = () => {
+	// 	localStorage.setItem("colorIndex", 0);
+	// 	setInterval(() => {
+	// 		let colorNew = color[localStorage.getItem("colorIndex")];
+	// 		document.documentElement.style.setProperty("--primary-50", colorNew[50]);
+	// 		document.documentElement.style.setProperty("--primary-100", colorNew[100]);
+	// 		document.documentElement.style.setProperty("--primary-200", colorNew[200]);
+	// 		document.documentElement.style.setProperty("--primary-300", colorNew[300]);
+	// 		document.documentElement.style.setProperty("--primary-400", colorNew[400]);
+	// 		document.documentElement.style.setProperty("--primary-500", colorNew[500]);
+	// 		document.documentElement.style.setProperty("--primary-600", colorNew[600]);
+	// 		document.documentElement.style.setProperty("--primary-700", colorNew[700]);
+	// 		document.documentElement.style.setProperty("--primary-800", colorNew[800]);
+	// 		document.documentElement.style.setProperty("--primary-900", colorNew[900]);
+	// 		document.documentElement.style.setProperty("--primary-950", colorNew[950]);
+	// 		if (parseInt(localStorage.getItem("colorIndex")) + 1 >= color.length) {
+	// 			localStorage.setItem("colorIndex", 0);
+	// 		} else {
+	// 			localStorage.setItem("colorIndex", parseInt(localStorage.getItem("colorIndex")) + 1);
+	// 		}
+	// 		localStorage.setItem("colorIndex", localStorage.getItem("colorIndex"));
+	// 	}, 5000);
+	// };
 	return (
 		<Router>
 			<Routes>
@@ -129,10 +140,21 @@ function App() {
 				<Route path="latest-cerificate" exact element={<LatestCerificate />} />
 				<Route path="amendment-certificate" exact element={<AmendmentCertificate />} />
 				<Route path="noticies" exact element={<Noticies />} />
-				
+				<Route path="orders" exact element={<RejectedOrders />} />
+				<Route path="feedback" exact element={<FeedbackForm />} />
+				<Route path="links" exact element={<Links />} />
+				<Route path="disclaimer" exact element={<Disclaimer />} />
+				<Route path="grievance" exact element={<Grievance />} />
+				<Route path="contact-us" exact element={<ContactUs />} />
+
 				<Route path="admin" element={<AdminHome />} />
 				<Route path="admin/login" element={<AdminLogin />} />
-				<Route path="admin/state-wise-list" element={<AdminStateWiseList />} />
+				<Route path="admin/society-list" element={<AdminStateWiseList />} />
+				<Route path="admin/user-list" element={<AdminUserList />} />
+				<Route path="admin/recieved-applications" element={<AdminRecievedApplication />} />
+				<Route path="admin/liquidation-list" element={<AdminLiquidationList />} />
+				<Route path="admin/bank-list" element={<AdminBankList />} />
+				<Route path="admin/settings" element={<AdminSettings />} />
 			</Routes>
 		</Router>
 	);
