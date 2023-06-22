@@ -13,7 +13,820 @@ import { Pie } from "react-chartjs-2";
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 const Homepage = () => {
-	const [societyData, setSocietyData] = useState([]);
+	const [societyData, setSocietyData] = useState([
+		{
+			type: "Fisheries",
+			count: 12,
+			states: [
+				{
+					state: "Andhra Pradesh",
+					count: 1,
+				},
+				{
+					state: "Assam",
+					count: 1,
+				},
+				{
+					state: "Delhi (NCT)",
+					count: 2,
+				},
+				{
+					state: "Jammu and Kashmir",
+					count: 1,
+				},
+				{
+					state: "Kerala",
+					count: 2,
+				},
+				{
+					state: "Manipur",
+					count: 1,
+				},
+				{
+					state: "Puducherry",
+					count: 1,
+				},
+				{
+					state: "Tamil Nadu",
+					count: 1,
+				},
+				{
+					state: "Telangana",
+					count: 1,
+				},
+				{
+					state: "West Bengal",
+					count: 1,
+				},
+			],
+		},
+		{
+			type: "Transport",
+			count: 1,
+			states: [
+				{
+					state: "Maharashtra",
+					count: 1,
+				},
+			],
+		},
+		{
+			type: "Credit",
+			count: 611,
+			states: [
+				{
+					state: "Andhra Pradesh",
+					count: 5,
+				},
+				{
+					state: "Assam",
+					count: 3,
+				},
+				{
+					state: "Bihar",
+					count: 2,
+				},
+				{
+					state: "Chandigarh",
+					count: 1,
+				},
+				{
+					state: "Chhattisgarh",
+					count: 5,
+				},
+				{
+					state: "Delhi (NCT)",
+					count: 31,
+				},
+				{
+					state: "Gujarat",
+					count: 9,
+				},
+				{
+					state: "Haryana",
+					count: 4,
+				},
+				{
+					state: "Jharkhand",
+					count: 2,
+				},
+				{
+					state: "Karnataka",
+					count: 10,
+				},
+				{
+					state: "Kerala",
+					count: 7,
+				},
+				{
+					state: "Madhya Pradesh",
+					count: 7,
+				},
+				{
+					state: "Maharashtra",
+					count: 317,
+				},
+				{
+					state: "Manipur",
+					count: 1,
+				},
+				{
+					state: "Odisha",
+					count: 13,
+				},
+				{
+					state: "Puducherry",
+					count: 1,
+				},
+				{
+					state: "Punjab",
+					count: 3,
+				},
+				{
+					state: "Rajasthan",
+					count: 50,
+				},
+				{
+					state: "Tamil Nadu",
+					count: 72,
+				},
+				{
+					state: "Telangana",
+					count: 3,
+				},
+				{
+					state: "Uttar Pradesh",
+					count: 28,
+				},
+				{
+					state: "West Bengal",
+					count: 37,
+				},
+			],
+		},
+		{
+			type: "Agro",
+			count: 292,
+			states: [
+				{
+					state: "Andhra Pradesh",
+					count: 4,
+				},
+				{
+					state: "Assam",
+					count: 1,
+				},
+				{
+					state: "Bihar",
+					count: 6,
+				},
+				{
+					state: "Delhi (NCT)",
+					count: 23,
+				},
+				{
+					state: "Gujarat",
+					count: 12,
+				},
+				{
+					state: "Haryana",
+					count: 5,
+				},
+				{
+					state: "Himachal Pradesh",
+					count: 1,
+				},
+				{
+					state: "Jharkhand",
+					count: 4,
+				},
+				{
+					state: "Karnataka",
+					count: 3,
+				},
+				{
+					state: "Kerala",
+					count: 11,
+				},
+				{
+					state: "Madhya Pradesh",
+					count: 11,
+				},
+				{
+					state: "Maharashtra",
+					count: 90,
+				},
+				{
+					state: "Manipur",
+					count: 1,
+				},
+				{
+					state: "Nagaland",
+					count: 1,
+				},
+				{
+					state: "Odisha",
+					count: 2,
+				},
+				{
+					state: "Punjab",
+					count: 11,
+				},
+				{
+					state: "Rajasthan",
+					count: 9,
+				},
+				{
+					state: "Tamil Nadu",
+					count: 9,
+				},
+				{
+					state: "Telangana",
+					count: 5,
+				},
+				{
+					state: "Uttarakhand",
+					count: 3,
+				},
+				{
+					state: "Uttar Pradesh",
+					count: 70,
+				},
+				{
+					state: "West Bengal",
+					count: 10,
+				},
+			],
+		},
+		{
+			type: "Cooperative Bank",
+			count: 68,
+			states: [
+				{
+					state: "Andhra Pradesh",
+					count: 3,
+				},
+				{
+					state: "Bihar",
+					count: 1,
+				},
+				{
+					state: "Delhi (NCT)",
+					count: 1,
+				},
+				{
+					state: "Gujarat",
+					count: 12,
+				},
+				{
+					state: "Haryana",
+					count: 2,
+				},
+				{
+					state: "Maharashtra",
+					count: 39,
+				},
+				{
+					state: "Rajasthan",
+					count: 3,
+				},
+				{
+					state: "Tamil Nadu",
+					count: 1,
+				},
+				{
+					state: "Telangana",
+					count: 1,
+				},
+				{
+					state: "Uttar Pradesh",
+					count: 4,
+				},
+				{
+					state: "West Bengal",
+					count: 1,
+				},
+			],
+		},
+		{
+			type: "Health/Hospital",
+			count: 19,
+			states: [
+				{
+					state: "Delhi (NCT)",
+					count: 1,
+				},
+				{
+					state: "Haryana",
+					count: 1,
+				},
+				{
+					state: "Karnataka",
+					count: 1,
+				},
+				{
+					state: "Maharashtra",
+					count: 15,
+				},
+				{
+					state: "West Bengal",
+					count: 1,
+				},
+			],
+		},
+		{
+			type: "Dairy",
+			count: 97,
+			states: [
+				{
+					state: "Bihar",
+					count: 3,
+				},
+				{
+					state: "Chhattisgarh",
+					count: 1,
+				},
+				{
+					state: "Karnataka",
+					count: 1,
+				},
+				{
+					state: "Maharashtra",
+					count: 88,
+				},
+				{
+					state: "Rajasthan",
+					count: 1,
+				},
+				{
+					state: "Uttar Pradesh",
+					count: 3,
+				},
+			],
+		},
+		{
+			type: "Industrial/Textile",
+			count: 40,
+			states: [
+				{
+					state: "Andhra Pradesh",
+					count: 1,
+				},
+				{
+					state: "Assam",
+					count: 1,
+				},
+				{
+					state: "Bihar",
+					count: 2,
+				},
+				{
+					state: "Dadra and Nagar Haveli",
+					count: 1,
+				},
+				{
+					state: "Jharkhand",
+					count: 1,
+				},
+				{
+					state: "Karnataka",
+					count: 4,
+				},
+				{
+					state: "Kerala",
+					count: 1,
+				},
+				{
+					state: "Madhya Pradesh",
+					count: 3,
+				},
+				{
+					state: "Maharashtra",
+					count: 24,
+				},
+				{
+					state: "Uttar Pradesh",
+					count: 2,
+				},
+			],
+		},
+		{
+			type: "Housing",
+			count: 143,
+			states: [
+				{
+					state: "Andhra Pradesh",
+					count: 2,
+				},
+				{
+					state: "Bihar",
+					count: 2,
+				},
+				{
+					state: "Chhattisgarh",
+					count: 1,
+				},
+				{
+					state: "Delhi (NCT)",
+					count: 56,
+				},
+				{
+					state: "Gujarat",
+					count: 6,
+				},
+				{
+					state: "Karnataka",
+					count: 3,
+				},
+				{
+					state: "Madhya Pradesh",
+					count: 4,
+				},
+				{
+					state: "Maharashtra",
+					count: 7,
+				},
+				{
+					state: "Odisha",
+					count: 1,
+				},
+				{
+					state: "Puducherry",
+					count: 2,
+				},
+				{
+					state: "Punjab",
+					count: 3,
+				},
+				{
+					state: "Rajasthan",
+					count: 4,
+				},
+				{
+					state: "Tamil Nadu",
+					count: 33,
+				},
+				{
+					state: "Uttar Pradesh",
+					count: 17,
+				},
+				{
+					state: "West Bengal",
+					count: 2,
+				},
+			],
+		},
+		{
+			type: "Federation",
+			count: 10,
+			states: [
+				{
+					state: "Andhra Pradesh",
+					count: 1,
+				},
+				{
+					state: "Delhi (NCT)",
+					count: 1,
+				},
+				{
+					state: "Gujarat",
+					count: 1,
+				},
+				{
+					state: "Haryana",
+					count: 1,
+				},
+				{
+					state: "Karnataka",
+					count: 1,
+				},
+				{
+					state: "Maharashtra",
+					count: 3,
+				},
+				{
+					state: "Punjab",
+					count: 1,
+				},
+				{
+					state: "Uttar Pradesh",
+					count: 1,
+				},
+			],
+		},
+		{
+			type: "Tourism",
+			count: 9,
+			states: [
+				{
+					state: "Delhi (NCT)",
+					count: 5,
+				},
+				{
+					state: "Goa",
+					count: 1,
+				},
+				{
+					state: "Kerala",
+					count: 1,
+				},
+				{
+					state: "Maharashtra",
+					count: 1,
+				},
+				{
+					state: "Puducherry",
+					count: 1,
+				},
+			],
+		},
+		{
+			type: "Construction",
+			count: 9,
+			states: [
+				{
+					state: "Delhi (NCT)",
+					count: 1,
+				},
+				{
+					state: "Manipur",
+					count: 1,
+				},
+				{
+					state: "Uttar Pradesh",
+					count: 7,
+				},
+			],
+		},
+		{
+			type: "Others",
+			count: 39,
+			states: [
+				{
+					state: "Andhra Pradesh",
+					count: 3,
+				},
+				{
+					state: "Bihar",
+					count: 1,
+				},
+				{
+					state: "Delhi (NCT)",
+					count: 5,
+				},
+				{
+					state: "Gujarat",
+					count: 1,
+				},
+				{
+					state: "Jharkhand",
+					count: 1,
+				},
+				{
+					state: "Kerala",
+					count: 2,
+				},
+				{
+					state: "Maharashtra",
+					count: 16,
+				},
+				{
+					state: "Tamil Nadu",
+					count: 4,
+				},
+				{
+					state: "Uttarakhand",
+					count: 1,
+				},
+				{
+					state: "Uttar Pradesh",
+					count: 5,
+				},
+			],
+		},
+		{
+			type: "Marketing",
+			count: 37,
+			states: [
+				{
+					state: "Arunachal Pradesh",
+					count: 1,
+				},
+				{
+					state: "Bihar",
+					count: 1,
+				},
+				{
+					state: "Delhi (NCT)",
+					count: 4,
+				},
+				{
+					state: "Gujarat",
+					count: 1,
+				},
+				{
+					state: "Haryana",
+					count: 3,
+				},
+				{
+					state: "Jammu and Kashmir",
+					count: 1,
+				},
+				{
+					state: "Karnataka",
+					count: 4,
+				},
+				{
+					state: "Kerala",
+					count: 7,
+				},
+				{
+					state: "Madhya Pradesh",
+					count: 2,
+				},
+				{
+					state: "Maharashtra",
+					count: 6,
+				},
+				{
+					state: "Rajasthan",
+					count: 1,
+				},
+				{
+					state: "Telangana",
+					count: 1,
+				},
+				{
+					state: "Uttar Pradesh",
+					count: 4,
+				},
+				{
+					state: "West Bengal",
+					count: 1,
+				},
+			],
+		},
+		{
+			type: "Multi Purpose",
+			count: 103,
+			states: [
+				{
+					state: "Andhra Pradesh",
+					count: 2,
+				},
+				{
+					state: "Bihar",
+					count: 1,
+				},
+				{
+					state: "Chhattisgarh",
+					count: 1,
+				},
+				{
+					state: "Delhi (NCT)",
+					count: 7,
+				},
+				{
+					state: "Gujarat",
+					count: 2,
+				},
+				{
+					state: "Haryana",
+					count: 4,
+				},
+				{
+					state: "Jharkhand",
+					count: 1,
+				},
+				{
+					state: "Karnataka",
+					count: 2,
+				},
+				{
+					state: "Madhya Pradesh",
+					count: 2,
+				},
+				{
+					state: "Maharashtra",
+					count: 34,
+				},
+				{
+					state: "Odisha",
+					count: 3,
+				},
+				{
+					state: "Punjab",
+					count: 4,
+				},
+				{
+					state: "Rajasthan",
+					count: 5,
+				},
+				{
+					state: "Tamil Nadu",
+					count: 5,
+				},
+				{
+					state: "Telangana",
+					count: 1,
+				},
+				{
+					state: "Uttar Pradesh",
+					count: 12,
+				},
+				{
+					state: "West Bengal",
+					count: 17,
+				},
+			],
+		},
+		{
+			type: "Consumer",
+			count: 11,
+			states: [
+				{
+					state: "Delhi (NCT)",
+					count: 1,
+				},
+				{
+					state: "Gujarat",
+					count: 2,
+				},
+				{
+					state: "Maharashtra",
+					count: 1,
+				},
+				{
+					state: "Punjab",
+					count: 1,
+				},
+				{
+					state: "Sikkim",
+					count: 1,
+				},
+				{
+					state: "Tamil Nadu",
+					count: 1,
+				},
+				{
+					state: "Uttar Pradesh",
+					count: 4,
+				},
+			],
+		},
+		{
+			type: "Welfare",
+			count: 21,
+			states: [
+				{
+					state: "Delhi (NCT)",
+					count: 5,
+				},
+				{
+					state: "Maharashtra",
+					count: 5,
+				},
+				{
+					state: "Rajasthan",
+					count: 1,
+				},
+				{
+					state: "Tamil Nadu",
+					count: 3,
+				},
+				{
+					state: "Uttarakhand",
+					count: 1,
+				},
+				{
+					state: "Uttar Pradesh",
+					count: 6,
+				},
+			],
+		},
+		{
+			type: "National Federation",
+			count: 21,
+			states: [
+				{
+					state: "Delhi (NCT)",
+					count: 14,
+				},
+				{
+					state: "Gujarat",
+					count: 2,
+				},
+				{
+					state: "Karnataka",
+					count: 1,
+				},
+				{
+					state: "Maharashtra",
+					count: 4,
+				},
+			],
+		},
+	]);
 	const [chartData, setChartData] = useState({
 		labels: [],
 		datasets: [
@@ -33,22 +846,16 @@ const Homepage = () => {
 				latestNews.scrollLeft = 0;
 			}
 		}, 2000);
-		fetch(process.env.REACT_APP_SERVER + "/api/societyCountFetcher/")
-			.then((res) => res.json())
-			.then((data) => {
-				setSocietyData(data);
-				setChartData({
-					labels: ["Andhra Pradesh", "Assam", "Delhi (NCT)", "Jammu and Kashmir", "Kerala", "Manipur", "Puducherry", "Tamil Nadu", "Telangana", "West Bengal"],
-					datasets: [
-						{
-							label: "# of Societies",
-							data: [1, 1, 2, 1, 2, 1, 1, 1, 1, 1],
-							backgroundColor: ["rgba(255, 99, 132, 1)", "rgba(54, 162, 235, 1)", "rgba(255, 206, 86, 1)", "rgba(75, 192, 192, 1)", "rgba(153, 102, 255, 1)", "rgba(255, 159, 64, 1)"],
-						},
-					],
-				});
-			})
-			.catch((err) => console.log(err));
+		setChartData({
+			labels: ["Andhra Pradesh", "Assam", "Delhi (NCT)", "Jammu and Kashmir", "Kerala", "Manipur", "Puducherry", "Tamil Nadu", "Telangana", "West Bengal"],
+			datasets: [
+				{
+					label: "# of Societies",
+					data: [1, 1, 2, 1, 2, 1, 1, 1, 1, 1],
+					backgroundColor: ["rgba(255, 99, 132, 1)", "rgba(54, 162, 235, 1)", "rgba(255, 206, 86, 1)", "rgba(75, 192, 192, 1)", "rgba(153, 102, 255, 1)", "rgba(255, 159, 64, 1)"],
+				},
+			],
+		});
 	}, []);
 
 	const newData = [
