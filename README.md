@@ -1,70 +1,107 @@
-# Getting Started with Create React App
+<img 
+width='200'
+height='200'
+src="https://mscs.dac.gov.in/images/MSCS_LOGO.png"
+alt="img-verification">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# **CRCS Portal**
+#### Welcome to the Central Registrar for Cooperative Societies (CRCS) Dashboard!
+We are proud to present the CRCS Dashboard, which was developed by our talented team during a hackathon organized by AICTE. Our goal was to create an intuitive and visually appealing user interface (UI) and frontend for enhanced user experience.
 
-In the project directory, you can run:
+#### The CRCS Dashboard offers Role Based Access, catering to two distinct user groups: the Government Admins and the Society Admins. With this distinction, we ensure that each user has access to the relevant features and functionalities.
 
-### `npm start`
+#### Our team has put immense effort into crafting a beautiful UI that not only looks visually stunning but also enhances the usability of the dashboard. The frontend has been designed with careful attention to detail, focusing on intuitive navigation, responsive design, and seamless interaction.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#### We believe that a great user experience is crucial for effective utilization of any platform, and that's why our team has prioritized creating an interface that is both aesthetically pleasing and user-friendly. By combining functionality and visual appeal, we aim to provide an exceptional experience for all users of the CRCS Dashboard.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### We invite you to explore the CRCS Dashboard and leverage its features to streamline your cooperative society management. Our team remains committed to continually improving and enhancing the dashboard to meet your evolving needs.
+<br>
 
-### `npm test`
+***
+<br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## **Tools and Technologies**
 
-### `npm run build`
+**Frontend**
+ - React.js Framework
+ - Tailwind CSS
+ - Redux (State Management)
+ - ChartJs
+ - GridJs
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Backend**
+  - PostgreSQL
+  - Django
+  - Python
+  - JWT Authentication
+  
+<br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+***
+<br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## **Key Features**
+<br>
 
-### `npm run eject`
+- [x] **Role** Based Access (Admin and User)
+- [x] **Efficient Analysis** of Data with interactive filters and charts
+- [x] Better way for **registration** of the society 
+- [x] Efficient handling of appeals with **grievances** form 
+- [x] Pleasany UI with **modern design** and features
+- [x] **Listing** for existing societies and new applications for registration
+- [x]  **Timely updates** and amendments
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<br>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+***
+<br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## **Important Links**
+<br>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+[Demo Website](https://crcs.vercel.app/)
+[Demo Admin Panel](https://crcs.vercel.app/admin)
+[Frontend Repo](https://github.com/TheJagStudio/crcsportal)
+[Backend Repo](https://github.com/TheJagStudio/crcsbackend)
+[Figma UI](https://www.figma.com/file/HC9kNQMVl4QdHVVy6dpd7J/CRCS?type=design&node-id=0%3A1&mode=design&t=yEJHBmAniBdXEmdj-1)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<br>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+***
+<br>
 
-### Code Splitting
+## **Project Objective**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# CRCS Dashboard
 
-### Analyzing the Bundle Size
+The CRCS Dashboard is a comprehensive platform designed to streamline the management of cooperative societies under the Central Registrar for Cooperative Societies (CRCS). With its user-friendly and intuitive interface, the dashboard aims to provide a seamless experience for society administrators and government officials.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Key Features
 
-### Making a Progressive Web App
+### User-Friendly Interface
+The dashboard boasts a user-friendly interface, ensuring that users can navigate and access the required features with ease. The intuitive design minimizes the learning curve, allowing users to quickly adapt to the platform.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Data Analytics
+Leveraging advanced tools and technologies, the CRCS Dashboard incorporates robust data analytics capabilities. Users can harness the power of data to gain valuable insights into cooperative societies, making informed decisions for effective management. Interactive filters and charts enable efficient analysis, visualizing data trends and patterns.
 
-### Advanced Configuration
+### Role-Based Access
+To ensure secure and controlled access, the CRCS Dashboard implements a role-based access system. Government admins and society admins have distinct access levels, granting them appropriate permissions based on their roles and responsibilities.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Timely Updates and Amendments
+The dashboard facilitates seamless registration of societies and ensures timely updates and amendments to society information. Society admins can easily manage society details, keeping them up to date and accurate. This feature simplifies the process of maintaining accurate records and ensures compliance with regulatory requirements.
 
-### Deployment
+### Appeals Handling
+Efficient handling of appeals is a core aspect of the CRCS Dashboard. Users can submit appeals and grievances through a dedicated form, allowing for prompt resolution. This streamlined process enhances transparency, accountability, and effective communication between the stakeholders involved.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Improved Society Registration Process
+The CRCS Dashboard introduces a better way for society registration. It simplifies and automates the registration process, reducing administrative burdens and improving efficiency. Society admins can easily navigate through the registration workflow, ensuring a smooth experience.
 
-### `npm run build` fails to minify
+## Getting Started
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+To get started with the CRCS Dashboard, please visit [Website](https://crcs.vercel.app). Additionally, the [React Docs](https://react.dev/) provides comprehensive documentation on the features and functionalities available.
+
+## Feedback and Support
+
+We welcome your feedback and suggestions to enhance the CRCS Dashboard further. If you encounter any issues or require assistance, please reach out to our support team at [email/support channel]. We are committed to providing a seamless user experience and continually improving the dashboard to meet your needs.
